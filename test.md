@@ -1,9 +1,4 @@
----
-title: smapi - Command Line Interface
-sidebar: smapi
-product: Skill Management API
-permalink: smapis-cli
----
+
 
 The ASK Command Line Interface (ASK CLI) is a tool for you to manage your Alexa skills and related AWS lambda functions.
 
@@ -37,17 +32,17 @@ To install the Alexa Skill Management CLI:
 
 A call to the ASK CLI tool uses the following format:
 
-`$ ask <command> <subcommand> [options and parameters]`
+`$ ask <command> <subcommand> [options and Options]`
 
 The ASK CLI command parameter can be one of the following:
 
 - [`init`](#init-command) - Initializes the ASK CLI with a specified developer account.
  - [`api`](#api-command) - Provides options to manage Alexa skills.
  - `clone [options]`(#clone) - Clones a Alexa skill project. Use this command when updating an existing skill.
-- [`deploy`](#depoy) -  Deploys a skill to the developer portal.
-- [`lambda`](#lambda) - Provides access to the AWS Lambda code associated with an Alexa Skill.
-- `new [options]` Creates an Alexa skill project with the specified options.
-- `help [cmd]`  Displays help for the specified command. If no command specified, displays the commands and options.
+- [`deploy`](#depoy-command) -  Deploys a skill to the developer portal.
+- [`lambda`](#lambda-command) - Provides access to the AWS Lambda code associated with an Alexa Skill.
+- `new [options]`(#new-command) - Creates an Alexa skill project with the specified options.
+- `help [cmd]`(#help-command) - Displays help for the specified command. If no command specified, displays the commands and options.
 
   Options:
 
@@ -76,10 +71,10 @@ If you manage Alexa skills for organizations, you have multiple vendor IDs assoc
 
 {% include note.html content="You can change the organization whose skills you are managing by running the `$ ask init` command again and selecting a different vendor ID" %}
 
-You should get a message that says Profile Vendor ID updated, which means you've succesfully initialized the tool.
+You should get the following output: "Profile Vendor ID updated", which means you've succesfully initialized the ASK CLI.
 
 
-### lambda command {#lambda}
+### lambda command 
 
 The Lambda command enables you to retrieve and post code for an AWS Lambda function.
 
@@ -92,23 +87,20 @@ The Lambda command enables you to retrieve and post code for an AWS Lambda funct
 - [download](#download-subcommand)
 - [upload](#upload-subcommand)
 
-#### download subcommand
+#### download subcommand 
 
 Downloads code for the specified lambda function to an optional specified destination.
 `download` call format:
 
 `$ ask lambda download [-f|--function <functionName>] [-d|--dest <destPath>]`
 
-**Parameters**
+**Options**
 <dl>
 <dt>--function, -f</dt>
-
-<dd>Optional. The Lambda function's name. If this option is not set, the download operation will display a list of Lambda functions for the configured account, and you can choose one from a numbered list.</dd>
+<dd>Optional. The Lambda function's name. If this option is not set, the download operation will display a list of Lambda functions for the configured account, and you can choose one from a numbered list.</dd> 
+<dt>--dest, -d</dt>
+<dd>Optional. Specifies the download destination for the Lambda function. If not set the Lambda is downloaded to the current working directory. </dd>
 </dl>
-
---dest, -d
-
-:   Optional. Specifies the download destination for the Lambda function. If not set the Lambda is downloaded to the current working directory. 
 
 #### upload subcommand 
 
@@ -117,18 +109,15 @@ Uploads files from the current directory or specified directory to a specified L
 
 `$ ask lambda upload <-f|--function <functionName>> [-s|--src <sourcePath>]`
 
-**Parameters**
+**Options**
+<dl>
+    <dt>--function, -f</dt>
+    <dd>Required. Specifies the target Lambda function name.</dd>
+    <dt>--src, -s</dt>
+    <dd>Optional. Specifies the source directory to upload from. If not specified, the contents of the current working directory are uploaded. </dd>
+ </dl>
 
---function, -f
-
-:   Required. Specifies the target Lambda function name.
-  
-
---src, -s
-
-:   Optional. Specifies the source directory to upload from. If not specified, the contents of the current working directory are uploaded. 
-
-#### log subcommand {#log}
+#### log subcommand 
 
 Enables you to view the cloudwatch logs for the specified lambda function.
 Format for a call:
@@ -137,31 +126,18 @@ Format for a call:
 `$ ask lambda log <-f|--function <functionName>> [--start-time <startTime>] 
    [--end-time <endTime>] [--limit <limitNumber>] [--raw]`
 
-**Parameters**
+**Options**
+<dl>
+<dt>--function|-f</dt>
+<dd>Required. The Lambda function name.</dd>
+<dt>--start-time</dt>
+<dd>Optional. The start time for the log time range you wish to view.</dd>
+<dt>--end-time</dt><dd>Optional. The end time for the log time range you wish to view.</dd>
+<dt>--limit</dt><dd>Optional. Integer indicating the number of log entries to display.</dd>
+<dt>--raw</dt><dd>Optional. Displays the logs without color or formatting.</dd>
+</dl>
 
---function|-f
-
-:   Required. The Lambda function name.
- 
-
---start-time
-
-:    Optional. The start time for the log time range you wish to view. 
-
---end-time
-
-:    Optional. The end time for the log time range you wish to view.
-
---limit
-
-:    Optional. The number of log entries to display. 
-
---raw
-
-:    Optional. Displays the logs without color or formatting.
-
-
-### api command {#api}
+### api command 
 
 The Api command enables you to retreive the current or publish new interaction models for a skill. 
 For detailed desciption of the interaction model description, see <interaction model>.
@@ -171,53 +147,50 @@ For detailed desciption of the interaction model description, see <interaction m
 
 **Subcommands**
 
-- [get-model](#get-model)
-- [head-model](#head-model)
-- [set-model](#set-model)
-- [get-build-status](#get-build-status)
-- [create-skill](#createskill)
-- [get-skill](#get-skill)
-- [create-skill](#createskill)
-- [create-account-linking](#createaccountlinking)
-- [get-account-linking](#getccountlinking)
+- [get-model](#get-model-subcommand)
+- [head-model](#head-model-subcommand)
+- [set-model](#set-model-subcommand)
+- [get-build-status](#get-build-status-subcommand)
+- [create-skill](#create-skill-subcommand)
+- [get-skill](#get-skill-subcommand)
+- [create-skill](#create-skill-subcommand)
+- [create-account-linking](#create-account-linking-subcommand)
+- [get-account-linking](#get-account-linking-subcommand)
 
-#### get-model subcommand {#get-model}
+#### get-model subcommand 
 
 Retrieves the model schema for the skill with the specified skillId and locale. This will update the model schema and the eTag for it.
 `get-model` call format:
 
 `$ ask api get-model [-s|--skill-id <skillId>] [-l|--locale <locale>]`
 
-**Parameters**
+**Options**
 
---skill-id, -s
-
-:    Skill Id for the target model.
-     If not specified, skill-id will be retrieved from project config. 
-
---locale, -l
-
-:    Locale for the target model. Valid values are en_US, en_GB or de_DE. If  not specified, you will be promted to enter the locale.    
-
-#### head-model subcommand {#headModel}
+<dl>
+    <dt>--skill-id, -s</dt>
+    <dd>Skill Id for the target model.
+     If not specified, skill-id will be retrieved from project config. </dd>
+    <dt>--locale, -l</dt>
+    <dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If  not specified, you will be promted to enter the locale.</dd>
+</dl>
+   
+#### head-model subcommand 
 
 Enables you to get the eTag for the model of the skill with the specified skillId and locale. 
 `head-model` call format:
 
 `$ ask api head-model [-s|--skill-id <skillId>] [-l|--locale <locale>]`
 
-**Parameters**
-
---skill-id, -s
-
-:    Skill ID for the target model.
-     If not specified, the skill ID will be retrieved from project configuration file.. 
-
---locale, -l
-
-:   Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale.   
-
-#### set-model subcommand {#setModel}
+**Options**
+<dl>
+    <dt>--skill-id, -s</dt>
+    <dd>Skill ID for the target model.
+     If not specified, the skill ID will be retrieved from project configuration file.</dd>
+     <dt>--locale, -l</dt>
+    <dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale. </dd>
+</dl>
+ 
+#### set-model subcommand 
 
 Enables you to set the specified interaction model schema for the specified skill and locale.
 `set-model` call format:
@@ -225,41 +198,39 @@ Enables you to set the specified interaction model schema for the specified skil
 `$ ask api set-model [-s|--skill-id <skillId>] [-l|--locale <locale>]`
 
 
-**Parameters**
+**Options**
+<dl>
+<dt>--skill-id, -s</dt>
+<dd>The skill ID for the target model.
+    If not specified, skill-id will be retrieved from project config. </dd>
 
---skill-id, -s
+<dt>--locale, -l</dt>
+<dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be prompted to enter the locale.</dd>
+</dl>   
 
-:    Skill Id for the target model.
-    If not specified, skill-id will be retrieved from project config. 
-
---locale, -l
-
-:    Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale.   
-
-#### get-build-status subcommand {#getbuildstatus}
+#### get-build-status subcommand 
 
 Gets the whether the specified model is built.
 `get-build-status` call format:
 
 `$ ask api get-build-status [-s|--skill-id <skillId>] [-l|--locale <locale>]`
 
---skill-id, -s
+<dl>
+    <dt>--skill-id, -s</dt>
+    <dd>The skill ID you are checking status for. If you don't specify a skill ID, the ASK CLI will attempt to retrieve the ID from a project configuration file relative to the current directory.</dd>
+    <dt>--locale, -l</dt>
+    <dd>Required. Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale.</dd>
+</dl>
 
-:   The identifier for the skill you are checking status for. If you don't specify a skill ID, the tool will attempt to retrieve the ID from a project configuration file relative to the current directory. 
+#### create-skill subcommand 
 
---locale, -l
-
-:    Required. Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale.  
-
-#### create-skill subcommand {#createskill}
-
-Creates a skill with an skill schema. Returns the skill ID and the skill status.
+Creates a skill from a skill schema (skill.json file) in the current directory. Returns the skill ID and the skill status.
 `create-skill` call format:
 
 `$ ask api create-skill`
 
 
-#### get-skill {getskill} subcommand
+#### get-skill subcommand
 
 Gets the skill the specified skill ID. This call will update the skill schema in the file system.
 
@@ -267,28 +238,25 @@ Gets the skill the specified skill ID. This call will update the skill schema in
 
 `$ ask api get-skill [-s|--skill-id <skillId>] [--stage <stage>]`
 
-**Parameters**
+**Options**
+<dl>
+  <dt>--skill-id, -s</dt>
+  <dd>Optional. Skill ID for the skill to get. If not specified, the CLI uses the name of the current directory.</dd>
+</dl>
+ 
 
---skill-id, -s
-
-:    Optional. Skill ID for the skill to get. If not specified, the CLI uses the name of the current directory.
-
---stage
-
-:    Optional. The stage for the skill. If not specified, default is `development`. 
-
-#### update {#update} subcommand
+#### update subcommand
 
 Updates the specified skill with the skill schema in the current directory.
 `update-skill` call format:
 
 `$ ask api update-skill [-s|--skill-id <skillId>]`
 
-**Parameters**
-
---skill-id, -s
-
- :    Optional. Skill ID for the skill to update. If not specified, the CLI uses the name of the current directory.
+**Options**
+<dl>
+<dt>--skill-id, -s</dt>
+<dd> Optional. The skill ID for the skill to update. If not specified, the CLI uses the name of the current directory.</dd>
+</dl>
 
 #### create-account-linking subcommand
 
@@ -297,13 +265,12 @@ Adds account linking configuration details for the specified skill ID.
 
 `$ ask api create-account-linking [-s|--skill-id <skillId>]`
 
-**Parameters**
+**Options**
+<dl>
+<dt>-skill-id, -s</dt><dd> Optional. The skill ID for the skill to add account linking information for. If not specified, adds account linking for the skill specified in the /.ask/config file. If an skill ID isn't specified and not present in the config file, the call will fail.</dd>
+</dl>
 
---skill-id, -s
-
-:    Optional. Skill ID for the skill to add account linking information for. If not specified, adds account linking for the skill specified in the /.ask/config file. If an skill ID isn't specified and not present in the config file, the call will fail.
-
-You will be prompted to enter the following values. For more details on these values, see [Linking an Alexa User with a User in Your System](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/linking-an-alexa-user-with-a-user-in-your-system):
+When you call `create-account-linking` you will be prompted to enter the following values. For more details on these values, see [Linking an Alexa User with a User in Your System](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/linking-an-alexa-user-with-a-user-in-your-system):
 
 - Authorization URL
 - Client ID
@@ -311,22 +278,21 @@ You will be prompted to enter the following values. For more details on these va
 - Domains (comma separated list)
 - Authorization Grant Type - Use arrow keys to choose either IMPLICIT or AUTH_CODE
 
-#### get-account-linking subcommand {#getaccountlinking}
+#### get-account-linking subcommand 
 
 Gets the account linking configuration details and outputs them to the console.
 `get-account-linking` call format:
 
 `$ ask api get-account-linking [-s|--skill-id <skillId>]`
 
-**Parameters**
+**Options**
+<dl>
+  <dt>--skill-id, -s</dt><dd>The skill ID for the skill to get the account linking information for.</dd>
+</dl>
 
---skill-id, -s
+#### vendors subcommand 
 
-:    Skill ID for the skill to get the account linking information for. 
-
-#### vendors subcommand {vendors}
-
-Gets the currently configured vendor information used by the ASK CLI, if needed, refreshes the access token, and outputs the currently configured vendor in json format. If there is more than one vendor, you will be asked to choose one from a list to refresh the token.
+Gets the currently configured vendor information used by the ASK CLI, if needed, refreshes the access token, and outputs the currently configured vendor profile in json format. If there is more than one vendor, you will be asked to choose one from a list to refresh the token.
 `vendors` call format:
 
 `$ ask api vendors`
@@ -345,18 +311,20 @@ Sample profile output. This is also stored in $HOME/.ask/cli_config:
 ]
 ```
 
-### new command {#new}
+### new command
 
 Creates a new skill project in the current directory, The parent directory for the skill will be the same as the skill name, and the parent directory will contain the other files and directories necessary to manage the skill with the ASK CLI. The skill is created with the default profile contained in the $HOME/.ask/cli_config file. 
 `new` call format:
 
 `ask new <-n|--skill-name <name>> [--profile <profile_name>]`
 
---skill-name, -n
+**Options**
+<dl>
+    <dt>--skill-name, -n</dt>
+    <dd>Required. The skill name for the newly created skill project.</dd>
+</dl>
 
-:    Required. The skill name for the newly created skill project. 
-
-### deploy command {#deploy}
+### deploy command 
 
 Deploys a skill project. This command will create a skill if it doesn't exist, or update an existing skill if a skill with the same name already exists.
 If the skill has never been deployed, [project_root]/.ask/config.json will not have skill_id and lambda_arn in the default deployment section. CLI will create a new skill and a new Lambda function named "ask-<Skill Type>-<Skill Name>" (with a new Role named "ask-lambda-<skill name>", attached to the policy arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole). Then the newly created skill ID and Lambda function ARN will be put into the config file. If they already exist, the CLI will update the existing skill and Lambda function resources.
@@ -364,31 +332,42 @@ If the skill has never been deployed, [project_root]/.ask/config.json will not h
 
 `ask deploy [--target <target>]`
 
-**Parameters**
+**Options**
+<dl>
+    <dt>--target, -t</dt>
+    <dd>target indicates whether you want to deploy the lamda code for a skill, the skill project, or both. Accepted values for target are: "all", "lambda", "skill". Default target is "all" if not specified.</dd>
+</dl>
 
---target, -t
-
-:   target indicates whether you want to deploy the lamda code for a skill, the skill project, or both. Accepted values for target are: "all", "lambda", "skill". Default target is "all" if not specified. 
-
-### clone command {#clone}
+### clone command 
 
 Clones the specified skill project. Used to set up a new project from the latest deployed one, possibly for updates or modifications.
 `clone` call format:
 
 `ask clone <-s|--skill-id <skillId>> [--stage <stage>] [--profile <profile>]`
 
-**Parameters**
+**Options**
+<dl>
+    <dt>--skill-id, -s</dt>
+    <dd>The skill ID for the target skill. </dd>
+    <dt>--stage</dt>
+    <dd>The stage for the skill. Valid values are "development", "certification" or "live". If not specifed, the stage is set to "development".</dd>
+    <dt>--profile</dt><dd>Profile is a json object that provides the authorization tokens and other configuration variables. If not specified, the profile information stored at `$HOME/.ask/cli_config` is used. Following is an example of a profile object.
+    <code>{
+      "profiles": {
+        "default": {
+          "token": {
+            "access_token": "Atza|IgEBINa6CKdbwN6Y",
+            "refresh_token": "Atzr|IgEBIN1AOxDqUndZ",
+            "token_type": "bearer",
+            "expires_in": 3600,
+            "expires_at": "2017-02-15T20:04:37.478Z"
+          },
+          "vendor_id": "MYVENDORID1234567",
+          "aws_profile": "default"
+        }
+      }
+    }</code></dd>
+</dl>
 
---skill-id, -s
 
-:    Skill ID for the target skill. 
-
---stage
-
-:    The stage for the skill.
-     If not set, the stage is "development" by default. 
-
---profile
-
-:    Profile is a top-level context that will own credential tokens and other config variables. Profile information is stored in the $HOME/.ask/cli_config. 
 
