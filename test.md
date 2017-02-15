@@ -38,7 +38,7 @@ The ASK CLI command parameter can be one of the following:
 
 - [`init`](#init-command) - Initializes the ASK CLI with a specified developer account.
  - [`api`](#api-command) - Provides options to manage Alexa skills.
- - `clone [options]`(#clone) - Clones a Alexa skill project. Use this command when updating an existing skill.
+ - [`clone \[options\]`](#clone) - Clones a Alexa skill project. Use this command when updating an existing skill.
 - [`deploy`](#depoy-command) -  Deploys a skill to the developer portal.
 - [`lambda`](#lambda-command) - Provides access to the AWS Lambda code associated with an Alexa Skill.
 - `new [options]`(#new-command) - Creates an Alexa skill project with the specified options.
