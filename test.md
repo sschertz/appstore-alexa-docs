@@ -120,7 +120,6 @@ Uploads files from the current directory or specified directory to a specified L
 #### log subcommand 
 
 Enables you to view the cloudwatch logs for the specified lambda function.
-Format for a call:
 `log` call format:
 
 `$ ask lambda log <-f|--function <functionName>> [--start-time <startTime>] 
@@ -174,7 +173,7 @@ Retrieves the model schema for the skill with the specified skillId and locale. 
     <dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If  not specified, you will be promted to enter the locale.</dd>
 </dl>
    
-#### head-model subcommand 
+#### *head-model subcommand*
 
 Enables you to get the eTag for the model of the skill with the specified skillId and locale. 
 `head-model` call format:
@@ -190,7 +189,7 @@ Enables you to get the eTag for the model of the skill with the specified skillI
     <dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be promted to enter the locale. </dd>
 </dl>
  
-#### set-model subcommand 
+#### *set-model subcommand* 
 
 Enables you to set the specified interaction model schema for the specified skill and locale.
 `set-model` call format:
@@ -208,7 +207,7 @@ Enables you to set the specified interaction model schema for the specified skil
 <dd>Locale for the target model. Valid values are en_US, en_GB or de_DE. If not specified, you will be prompted to enter the locale.</dd>
 </dl>   
 
-#### get-build-status subcommand 
+#### *get-build-status subcommand*
 
 Gets the whether the specified model is built.
 `get-build-status` call format:
@@ -352,7 +351,7 @@ Clones the specified skill project. Used to set up a new project from the latest
     <dt>--stage</dt>
     <dd>The stage for the skill. Valid values are "development", "certification" or "live". If not specifed, the stage is set to "development".</dd>
     <dt>--profile</dt><dd>Profile is a json object that provides the authorization tokens and other configuration variables. If not specified, the profile information stored at `$HOME/.ask/cli_config` is used. Following is an example of a profile object.
-    <code>{
+    <p><code>{
       "profiles": {
         "default": {
           "token": {
@@ -366,7 +365,7 @@ Clones the specified skill project. Used to set up a new project from the latest
           "aws_profile": "default"
         }
       }
-    }</code></dd>
+      }</code></p></dd>
 </dl>
 
 
