@@ -41,8 +41,8 @@ A call to the ASK CLI tool uses the following format:
 
 The ASK CLI command parameter can be one of the following:
 
-- [`init`](#initCommand) - Initializes the ASK CLI with a specified developer account.
- - [`api`](#api) - Provides options to manage Alexa skills.
+- [`init`](#init-command) - Initializes the ASK CLI with a specified developer account.
+ - [`api`](#api-command) - Provides options to manage Alexa skills.
  - `clone [options]`(#clone) - Clones a Alexa skill project. Use this command when updating an existing skill.
 - [`deploy`](#depoy) -  Deploys a skill to the developer portal.
 - [`lambda`](#lambda) - Provides access to the AWS Lambda code associated with an Alexa Skill.
@@ -55,7 +55,7 @@ The ASK CLI command parameter can be one of the following:
 - `-V, --version`- Outputs the version number.
 
 
-### init command {#initCommand}
+### init command 
 
 To manage skills associated with your Amazon developer account, you must run the init command.
 `init` call format:
@@ -89,10 +89,10 @@ The Lambda command enables you to retrieve and post code for an AWS Lambda funct
 
 **Subcommands**
 
-- [download](#download)
-- [upload](#upload)
+- [download](#download-subcommand)
+- [upload](#upload-subcommand)
 
-#### download subcommand {#download}
+#### download subcommand
 
 Downloads code for the specified lambda function to an optional specified destination.
 `download` call format:
@@ -100,16 +100,17 @@ Downloads code for the specified lambda function to an optional specified destin
 `$ ask lambda download [-f|--function <functionName>] [-d|--dest <destPath>]`
 
 **Parameters**
+<dl>
+<dt>--function, -f</dt>
 
---function, -f
-
-:   Optional. The Lambda function's name. If this option is not set, the download operation will display a list of Lambda functions for the configured account, and you can choose one from a numbered list. 
+<dd>Optional. The Lambda function's name. If this option is not set, the download operation will display a list of Lambda functions for the configured account, and you can choose one from a numbered list.</dd>
+</dl>
 
 --dest, -d
 
 :   Optional. Specifies the download destination for the Lambda function. If not set the Lambda is downloaded to the current working directory. 
 
-#### upload subcommand {#upload}
+#### upload subcommand 
 
 Uploads files from the current directory or specified directory to a specified Lambda function. 
 `upload` call format:
