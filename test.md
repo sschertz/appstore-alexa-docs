@@ -146,15 +146,19 @@ For detailed desciption of the interaction model description, see <interaction m
 
 **Subcommands**
 
-- [get-model](#get-model-subcommand)
-- [head-model](#head-model-subcommand)
-- [set-model](#set-model-subcommand)
-- [get-build-status](#get-build-status-subcommand)
-- [create-skill](#create-skill-subcommand)
-- [get-skill](#get-skill-subcommand)
-- [create-skill](#create-skill-subcommand)
-- [create-account-linking](#create-account-linking-subcommand)
-- [get-account-linking](#get-account-linking-subcommand)
+| Task  |  Command |  
+|-------|----------|
+| Create a new skill  | [create-skill](#create-skill-subcommand)  |   
+| Get a skill  |  [get-skill](#get-skill-subcommand) |  
+| Update the skill configuration details |  [update-skill](#update-skill-subcommand) |  
+| Get an interaction model for skill | [get-model](#get-model-subcommand) |
+| Set a new interaction model for skill | [set-model](#set-model-subcommand) |
+| Get the build status of an interaction model | [get-build-status](#get-build-status-subcommand) |
+| Get the etag associated with an interaction model | [head-model](#head-model-subcommand) |
+| Get the account linking configuration information for a skill | [get-account-linking](#get-account-linking-subcommand) |
+| Set account linking configuration information for a skill | [get-account-linking](#get-account-linking-subcommand) |
+| Get the vendor IDs associated with your developer account | [vendor](#vendor-subcommand) |
+
 
 #### get-model subcommand 
 
