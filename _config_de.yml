@@ -54,21 +54,12 @@ defaults:
       search: false
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - hippomenus/
-  - output_ja
-  - output_de
-  - output_hippo
-  - s3_deploy
-  - _site
-  - buildandpush.sh
   - _config*
-  - jekyll*
-  - s3_website.yml
-  - docs/testmate/msword/
-  - webapp
+  - _output_ja
+  - _output_de
   - sapp
+  - Config
+  - _site
 
 
 ########## UI text ###############

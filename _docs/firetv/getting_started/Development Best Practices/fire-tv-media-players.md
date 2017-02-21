@@ -11,13 +11,13 @@ Any media player that uses the Android's media playback and encryption APIs (suc
 
 **Free Options**:
 
-*  [Amazon port of ExoPlayer](../fire-tv-media-players.md#exoplayer)
-*  [Android MediaPlayer](../fire-tv-media-players.md#androidmediaplayer)
+*  [Amazon port of ExoPlayer](#exoplayer)
+*  [Android MediaPlayer](#androidmediaplayer)
 
 **Paid Options**:
 
-*  [VisualOn OnStream MediaPlayer](../fire-tv-media-players.md#visualon)
-*  [NexStreaming NexPlayer SDK](../fire-tv-media-players.md#nexplayer)
+*  [VisualOn OnStream MediaPlayer](#visualon)
+*  [NexStreaming NexPlayer SDK](#nexplayer)
 
 For information about the audio and video formats supported by Amazon Fire TV, see [Fire TV Device Specifications][device-and-platform-specifications].
 

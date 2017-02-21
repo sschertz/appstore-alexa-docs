@@ -15,20 +15,11 @@ kramdown:
  syntax_highlighter: rouge
 
 exclude:
-  - _site
-  - .idea
-  - Config
-  - search/
   - _config*
-  - jekyll*
-  - output_de
-  - output_ja
-  - _site
-  - s3_deploy
-  - s3_website.yml
-  - docs/testmate/msword/
-  - webapp
+  - _output_ja
+  - _output_de
   - sapp
+  - Config
 
 collections:
   docs_ja:

@@ -55,14 +55,11 @@ defaults:
       search: false
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - hippomenus/
+  - _config*
   - _output_ja
   - _output_de
-  - _site
-  - _config*
   - sapp
+  - Config
 
 ########## UI text ###############
 

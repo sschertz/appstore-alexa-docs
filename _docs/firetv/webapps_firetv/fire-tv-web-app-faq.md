@@ -4,6 +4,7 @@ permalink: fire-tv-web-app-faq.html
 toc: false
 sidebar: firetv
 product: Fire TV 
+github: true
 ---
 
 The following are frequently asked questions about Fire TV Web Apps.

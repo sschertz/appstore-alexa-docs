@@ -2,7 +2,8 @@
 title: Supporting Controllers in Web Apps
 permalink: supporting-controllers-in-web-apps.html
 sidebar: firetv
-product: Fire TV 
+product: Fire TV
+github: true
 ---
 
 Amazon Fire TV supports user input from the Amazon Fire TV remote, the Amazon Fire game controller, and other game controllers that support the Bluetooth HID gamepad profile. These controllers give users a means of navigating in your app and selecting items.

@@ -3,6 +3,7 @@ title: Customizing Your Fire TV Web App
 permalink: customizing-your-fire-tv-web-app.html
 sidebar: firetv
 product: Fire TV 
+github: true
 ---
 
 You can customize your web app for Fire TV in the following ways:
