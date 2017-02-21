@@ -1,0 +1,51 @@
+{% include topnav.html %}
+
+
+    <div class="container">
+
+
+            <!-- main area -->
+            <div class="col-xs-12 col-sm-12 main">
+
+
+                <h1 class="homepageTitle">{{page.title}}</h1>
+
+
+
+                {{content}}
+
+            </div><!-- /.col-xs-12 main -->
+
+
+        </div><!--/.container-->
+
+
+    </div><!--/.page-container-->
+    {% if site.language == "english" %}
+    {% include footer.html %}
+    {% elsif site.language == "japanese" %}
+    {% include footer_ja.html %}
+    {% elsif site.language == "german" %}
+    {% include footer_de.html %}
+    {% endif %}
+    <!--scripts loaded here-->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/customscripts.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle=offcanvas]').click(function() {
+                $('.row-offcanvas').toggleClass('active');
+            });
+        });
+    </script>
+
+
+
+</body>
+{% if site.google_analytics %}
+{% include google_analytics.html %}
+{% endif %}
+</html>

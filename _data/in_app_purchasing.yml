@@ -1,0 +1,219 @@
+sidebarTitle: In-App Purchasing API
+owner: devlinbd
+
+## Keep this commented out content because it shows the YAML model for the sidebar.
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+## Note that if you have a folder with no items (just other subfolders), you must include at least one item outside the folder. For the obligatory item, just use a single "-" with no other properties.
+
+folders:
+- title: Get Started
+  folderitems:
+
+  - title: What is New in In-App Purchasing
+    jurl: /whats-new-in-in-app-purchasing.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/whats-new-in-in-app-purchasing
+    ref: IAP-whatsnew
+
+  - title: About In-App Purchasing
+    jurl: /understanding-in-app-purchasing.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/understanding-in-app-purchasing
+    ref: understanding-iap
+
+  - title: IAP FAQs
+    jurl: /iap-faqs.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-faqs
+    ref: faqs-iap
+
+  - title: UX Design Guidelines for IAP
+    jurl: /best-practices-ui-and-ux-design-guidelines.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/best-practices-ui-and-ux-design-guidelines
+    ref:  ui-and-ux-design-guidelines
+
+  - title: Link to Amazon from within Your App
+    jurl: /deep-linking-to-the-amazon-client.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/deep-linking-to-the-amazon-client
+    ref: deep-linking-to-the-amazon-client
+
+  - title: Submit Single In-App Items with Developer Console
+    jurl: /submitting-iap-items.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/submitting-iap-items
+    ref: submitting-iap-items
+
+
+- title: Implement IAP for Android Apps
+  folderitems:
+
+  - title: Get Started with IAP
+    jurl: /getting-started-with-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/getting-started-with-iap
+    ref: getting-started-with-iap
+
+  - title: Implement In-App Purchasing
+    jurl: /implementing-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/implementing-iap
+    ref: implementing-iap
+
+  - title: Obfuscate The App Code
+    jurl: /obfuscating-the-code.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/obfuscating-the-code
+    ref: obfuscating-the-code
+
+  - title: Migrate from IAP v1.0 to IAP v2.0
+    jurl: /migrate-iapv1-apps-to-iapv2.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/migrate-iapv1-apps-to-iapv2
+    ref: migrate-from-iapv1-to-iapv2
+
+  - title: Migrate from Google Play IAB v3.0 to Amazon IAP v2.0
+    jurl: /migrating-from-googles-iab-to-amazons-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/migrating-from-googles-iab-to-amazons-iap
+    ref: migrate-from-iab-to-iapv2
+
+- title: Test IAP for Android Apps
+  folderitems:
+
+  - title: Testing Overview
+    jurl: /testing-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/testing-iap
+    ref: testing-iap
+
+  - title: Install and Configure the App Tester
+    jurl: /installing-and-configuring-app-tester.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/installing-and-configuring-app-tester
+    ref: installing-and-configuring-app-tester
+
+  - title: App Tester User Guide
+    jurl: /app-tester-user-guide.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/app-tester-user-guide
+    ref: app-tester-ug
+
+  - title: Design and Execute Test Cases for IAP
+    jurl: /test-cases-for-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/test-cases-for-iap
+    ref: test-cases-for-iap
+
+  - title: RVS for Android Apps
+    jurl: /verifying-receipts-in-iap.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/verifying-receipts-in-iap
+    ref: rvs-iap
+
+- title: Implement IAP for Web Apps
+  folderitems:
+
+  - title: Overview of IAP API for Web Apps
+    jurl: /iap-api-for-webapps-overview.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-api-for-webapps-overview
+    ref: iap-api-for-webapps-overview
+
+  - title: Integrate Consumables Into Web Apps
+    jurl: /iap-consumables-webapps.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-consumables-webapps
+    ref: iap-consumables-webapps
+
+  - title: Integrate Entitlements Into Web Apps
+    jurl: /iap-entitlements-webapps.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-entitlements-webapps
+    ref: iap-entitlements-webapps
+
+  - title: Integrate Subscriptions Into Web Apps
+    jurl: /iap-subscriptions-webapps.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-subscriptions-webapps
+    ref: iap-subscriptions-webapps
+
+- title: Test IAP for Web Apps
+  folderitems:
+
+  - title: IAP SDK Tester for Web Apps
+    jurl: /iap-sdk-tester-for-webapps.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/iap-sdk-tester-for-webapps
+    ref: iap-sdk-tester-for-webapps
+
+  - title: RVS for Web Apps
+    jurl: /verifying-receipts-in-iap-webapp.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/verifying-receipts-in-iap-webapp
+    ref: rvs-iap-webapps
+
+- title: Reference
+  folderitems:
+
+  - title: In-App Purchasing API 2.0 Reference
+    jurl: /in-app-purchasing-2.0-api-reference.html
+    hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/javadocs-v2/in-app-purchasing-2.0-api-reference
+    ref: IAP-2.0-api-ref
+
+###########################
+
+related_resources_title: Other Resources
+
+related_resources_list:
+
+- title: Fire TV
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+  jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+
+- title: Fire App Builder
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview
+  jurl: /fire-app-builder-overview.html
+
+- title: Fire Tablets
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tablets/app-development/getting-started-for-fire-tablets
+  jurl: /getting-started-for-fire-tablets.html
+
+- title: Fire OS
+  hurl: https://developer.amazon.com/public/solutions/platforms/fire-os/docs/fire-os-overview
+  jurl: /fire-os-overview.html
+
+- title: HTML5 Web API
+  hurl: https://developer.amazon.com/public/solutions/platforms/webapps/docs/environment.html
+  jurl: /environment.html
+
+- title: Cross Platform Engine Plugins
+  hurl: https://developer.amazon.com/public/solutions/platforms/cross-platform/unity/docs/cross-platform-plugins-landing-page
+  jurl:  /cross-platform-plugins-landing-page.html
+
+- title: Appstore Publishing
+  hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-understanding-submission
+  jurl: /appstore-understanding-submission
+
+- title: Fling SDK
+  hurl: https://developer.amazon.com/public/apis/experience/fling/docs/understanding-the-amazon-fling-service
+  jurl: /understanding-the-amazon-fling-service
+
+- title: Developer Publishing API
+  hurl: https://developer.amazon.com/public/apis/manage/developer-publishing/obtaining-an-access-token-for-the-developer-publishing-api
+  jurl: /obtaining-an-access-token-for-the-developer-publishing-api
+
+- title: Developer Portal Forums
+  hurl: https://forums.developer.amazon.com/
+
+###########################
+
+forum:
+  forum_name: In-App Purchasing Forum
+  forum_link: https://forums.developer.amazon.com/spaces/70/index.html

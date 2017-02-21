@@ -1,0 +1,18 @@
+## Topnav single links
+## if you want to list an external url, use url instead of url. the theme will apply a different link base.
+
+
+navbar_singleitems:
+- items:
+    - title: Dokumentation Startseite
+      url: /index.html
+
+
+#Topnav dropdowns
+#navbar_dropdowns:
+#- folders:
+#    - title: Other Resources - DE
+#      folderitems:
+#        - title: AWS Documentation - DE
+#          url: https://aws.amazon.com/documentation/
+

@@ -1,0 +1,1 @@
+メディアフィードから {{include.type}} を返すために使用されるクエリ。クエリの構文はフィードの構造によって異なります。**{{include.type}}** を取得するには、適切なクエリを作成する必要があります。JSONフィードの場合は、クエリ構文に[Jayway JsonPath構文](https://github.com/jayway/JsonPath)を使用します。XMLフィードの場合は、[XPath式](http://www.w3schools.com/xsl/xpath_syntax.asp)を使用します。詳細については、「[queryパラメータ](#queryparameter)」を参照してください。

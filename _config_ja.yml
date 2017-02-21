@@ -1,0 +1,88 @@
+language: japanese
+target: jekyll
+
+url: /
+destination: _output_ja
+github_editme_path: https://github.com/amzn/appstore-alexa-docs/
+audio_path: docs_ja/audio
+image_path: docs_ja
+
+port: 4001
+highlighter: rouge
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+collections:
+  docs_ja:
+    output: true
+  tags_ja:
+    output: true
+  search_ja:
+    output: true
+
+sass:
+    style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      topnav: topnav_ja
+  -
+    scope:
+      path: ""
+      type: docs_ja
+    values:
+      layout: default
+      topnav: topnav_ja
+  -
+    scope:
+      path: ""
+      type: search_ja
+    values:
+      layout: default
+      topnav: topnav_ja
+      toc: false
+      github_button: false
+      search: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - hippomenus/
+  - _output_ja
+  - _output_de
+  - _site
+  - _config*
+  - sapp
+
+########## UI text ###############
+
+uistring:
+    log_doc_issue: ログドキュメントの問題
+    tableofcontents: 目次
+    breadcrumb:
+      home: ホーム
+      documentation: ドキュメント
+    expandall: すべて展開
+    collapseall: すべて折りたたむ
+    title: Amazon開発者ポータル # Displays as site title on top nav bar and on site metadata
+    description: Fire TV・Fireタブレット・Amazonアプリストアでの開発など、Amazonのプロダクトやサービスに関する開発者向けドキュメントは、こちらからご覧いただけます。 # Displays as site description meta
+    search_placeholder: 検索
+    search_placeholder_global: 検索
+    search_placeholder_product: 検索
+    github_edit_button_text: githubで編集する
+    search_no_results_found: 条件に一致する情報は見つかりませんでした。
+    minitoc_title: 目次
+    search_results_page_title: 検索結果
+    products: プロダクト・サービス
+    docindex_product: プロダクト
+    docindex_startpage: 開始ページ

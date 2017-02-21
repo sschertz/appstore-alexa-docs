@@ -1,0 +1,15 @@
+products:
+
+## Fire Devices group
+
+- title: Amazon Fire TV用アプリとゲームを開発するための準備
+  link: getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+  group: Fire Devices
+  shortname: firetv
+  owner: tomjoht
+
+- title: Fire App Builder
+  link: fire-app-builder-overview.html
+  group: Fire Devices
+  shortname: fireappbuilder
+  owner: tomjoht

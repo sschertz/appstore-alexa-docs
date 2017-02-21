@@ -1,0 +1,21 @@
+---
+layout: null
+search: exclude
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% for collection in site.collections %}
+    {% for doc in collection.docs %}
+
+    <url>
+        <loc>{{doc.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%B-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}{% endfor %}
+
+</urlset>
+{% comment %} See https://www.sitemaps.org/protocol.html for info on the tags. {% endcomment %}

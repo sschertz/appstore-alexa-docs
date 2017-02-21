@@ -1,0 +1,39 @@
+# Note: Your product must be listed here with a shortname that corresponds to the sidebar file in the _data folder. Otherwise, the links.html script won't include your product, and the links to any ref properties listed in your sidebar file won't work. If your product isn't in Jekyll, omit the shortname property in the metadata below.
+
+ products:
+
+
+## Fire Devices
+
+ - title: Fire TV and Fire TV Stick
+   link: getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+   group: Fire Devices
+   shortname: firetv
+   owner: tomjoht
+
+ - title: Fire App Builder
+   link: fire-app-builder-overview.html
+   group: Fire Devices
+   shortname: fireappbuilder
+   owner: tomjoht
+
+ - title: Fire TV Catalog Integration
+   link: 01-device-and-feature-specifications.html
+   group: Fire Devices
+   shortname: catalog
+   owner: tomjoht
+
+
+## Appstore
+
+ - title: Fling SDK
+   link: understanding-the-amazon-fling-service.html
+   group: Fire Devices
+   shortname: fling
+   owner: tomjoht
+
+## Other
+
+ - shortname: appstore
+ - shortname: in_app_purchasing
+ - shortname: devicemessaging

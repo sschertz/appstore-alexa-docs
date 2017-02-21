@@ -1,0 +1,184 @@
+sidebarTitle: Fire TV Catalog Integration
+owner: tomjoht
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+
+folders:
+
+- title: Getting Started
+  folderitems:
+  - title: Catalog Integration Overview
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/integrating-your-catalog-with-fire-tv
+    jurl: /integrating-your-catalog-with-fire-tv.html
+    ref: integrating-your-catalog-with-fire-tv
+
+  - title: Understanding Catalog Integration
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/understanding-fire-tv-catalog-integration
+    jurl: /understanding-fire-tv-catalog-integration.html
+    ref: understanding-fire-tv-catalog-integration
+    bookmarks: [matching]
+
+  - title: Getting Started with Catalog Integration
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/getting-started-catalog-integration
+    jurl: /getting-started-catalog-integration.html
+    ref: getting-started-catalog-integration
+    bookmarks: [beforeyoubegin]
+
+  - title: About the Catalog Data Format (CDF)
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/about-the-cdf
+    jurl: /about-the-cdf.html
+    ref: about-the-cdf
+    bookmarks: [validating]
+
+  - title: Setting Up Your AWS Account
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/setting-up-your-aws-account-for-fire-tv-catalog-integration
+    jurl: /setting-up-your-aws-account-for-fire-tv-catalog-integration.html
+    ref: setting-up-your-aws-account-for-fire-tv-catalog-integration
+
+  - title: Catalog Integration FAQs
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/fire-tv-catalog-integration-faqs
+    jurl: /fire-tv-catalog-integration-faqs.html
+    ref: fire-tv-catalog-integration-faqs
+
+- title: Integration
+  folderitems:
+  - title: Uploading Your Catalog
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/uploading-your-catalog
+    jurl: /uploading-your-catalog.html
+    ref: uploading-your-catalog
+
+  - title: Catalog Ingestion Reports
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/receiving-and-understanding-the-catalog-ingestion-report
+    jurl: /receiving-and-understanding-the-catalog-ingestion-report.html
+    ref: receiving-and-understanding-the-catalog-ingestion-report
+
+  - title: Integrating with the Launcher
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/launcher-integration
+    jurl: /launcher-integration.html
+    ref: launcher-integration
+
+  - title: Verifying Fire TV Deep Links
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/test-cases-for-verifying-deep-links-from-your-fire-tv-catalog
+    jurl: /test-cases-for-verifying-deep-links-from-your-fire-tv-catalog.html
+    ref: test-cases-for-verifying-deep-links-from-your-fire-tv-catalog
+
+- title: Testing
+  folderitems:
+  - title: Testing Launcher Integration with ADB
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/testing-launcher-integration-with-adb
+    jurl: /testing-launcher-integration-with-adb.html
+    ref: testing-launcher-integration-with-adb
+
+  - title: Testing Launcher Integration with the Test App
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/testing-launcher-integration-with-the-test-app
+    jurl: /testing-launcher-integration-with-the-test-app.html
+    ref: testing-launcher-integration-with-the-test-app
+
+  - title: Ingestion Report Messages
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/catalog-data-format-ingestion-report-messages
+    jurl: /catalog-data-format-ingestion-report-messages.html
+    ref: catalog-data-format-ingestion-report-messages
+
+- title: Migration
+  folderitems:
+  - title: Migrating CDF Versions
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/migrating-a-cdf-file-to-the-latest-version
+    jurl: /migrating-a-cdf-file-to-the-latest-version.html
+    ref: migrating-a-cdf-file-to-the-latest-version
+
+- title: Catalog Data Format Reference
+  folderitems:
+
+  - title: CDF Schema Reference
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/catalog-data-format-schema-reference
+    jurl: /catalog-data-format-schema-reference.html
+    ref: catalog-data-format-schema-reference
+    bookmarks: [AdultProduct,FreeOffer,Partner,ShortDescription,AudioLanguage,Genre,Price,ShowID,CastMember,Genres,PurchaseOffer,ShowTitle,Catalog,ID,Quality,Source,Certification,Regions,Rank,ImageUrl,Studio,Color,Job,Studios,ContentRating,JP_Require18PlusAgeConfirmation,RelatesToExternalID,SubscriptionOffer,ContentRatings,Language,RelatesToID,Subtitle,Copyright,LaunchDetails,ReleaseCountry,LaunchId,Synopsis,Count,ReleaseDate,System,Country,MaxValue,ReleaseInfo,Title,Credits,MiniSeries,ReleaseYear,TvEpisode,CrewMember,MiniSeriesEpisode,RentalOffer,TvSeason,CustomerRating, MiniSeriesID,Role,TvShow,Duration,MiniSeriesTitle,RuntimeMinutes,TvSpecial,EpisodeInSeason,Movie,Score,EpisodeInSeries,Name,SeasonID,WindowEnd,ExternalID,Offers,SeasonInShow,WindowStart,Extra,OriginalAirDate,SeasonTitle,SeasonTitle,Type,Works]
+
+  - title: CDF Schema Definition (XSD)
+    hurl: https://s3.amazonaws.com/com.amazon.aftb.cdf/catalog.xsd
+    jurl: https://s3.amazonaws.com/com.amazon.aftb.cdf/catalog.xsd
+    ref: catalog-data-format-schema-definition
+
+  - title: CDF Examples (ZIP)
+    hurl: https://s3.amazonaws.com/com.amazon.aftb.cdf/cdf-examples.zip
+    jurl: https://s3.amazonaws.com/com.amazon.aftb.cdf/cdf-examples.zip
+    ref: catalog-data-format-examples
+
+
+########################
+
+related_resources_title: Other Resources
+
+related_resources_list:
+
+- title: Fire TV
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+  jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+
+- title: Fire App Builder
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview
+  jurl: /fire-app-builder-overview.html
+
+- title: Fire Tablets
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tablets/app-development/setting-up-your-development-environment-for-fire-tablets
+  jurl: /setting-up-your-development-environment-for-fire-tablets.html
+
+- title: Fire OS
+  hurl: https://developer.amazon.com/public/solutions/platforms/fire-os/docs/fire-os-overview
+  jurl: /fire-os-overview.html
+
+- title: HTML5 Web API
+  hurl: https://developer.amazon.com/public/solutions/platforms/webapps/docs/environment.html
+  jurl: /environment.html
+
+- title: Appstore Publishing
+  hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-understanding-submission
+  jurl: /appstore-understanding-submission
+
+- title: In-App Purchasing API
+  hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/getting-started-with-iap
+  jurl: /getting-started-with-iap
+
+- title: Fling SDK
+  hurl: https://developer.amazon.com/public/apis/experience/fling/docs/understanding-the-amazon-fling-service
+  jurl: /understanding-the-amazon-fling-service
+
+- title: Developer Publishing API
+  hurl: https://developer.amazon.com/public/apis/manage/developer-publishing/obtaining-an-access-token-for-the-developer-publishing-api
+  jurl: /obtaining-an-access-token-for-the-developer-publishing-api
+
+- title: Developer Portal Forums
+  hurl: https://forums.developer.amazon.com/
+
+########################
+
+forum:
+  forum_name: Fire TV Forum
+  forum_link: https://forums.developer.amazon.com/spaces/43/index.html

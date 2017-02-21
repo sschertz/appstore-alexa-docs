@@ -1,0 +1,91 @@
+language: english
+host: 127.0.0.1
+port: 4000
+target: hippo
+
+destination: _site
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - hippomenus/
+  - _output_ja
+  - _output_de
+  - _site
+  - _config*
+  - sapp
+
+
+collections:
+  docs:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: hippolayout
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: hippolayout
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: hippolayout
+      topnav: topnav
+      tag_group: taglist
+  -
+    scope:
+      path: ""
+      type: docs
+    values:
+      layout: hippolayout
+      topnav: topnav
+      tag_group: taglist
+
+
+
+# End the image and audio paths with the forward slash (/)
+
+# English
+image_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex
+audio_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex
+
+# German
+# image_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/de/
+# audio_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/de/
+
+# Japanese
+# image_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/ja/
+# audio_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/ja/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+
+# English
+alerts:
+  note: Note
+  tip: Tip
+  warning: Warning
+  important: Important
+
+
+uistring:
+  github_edit_button_text: Improve this page

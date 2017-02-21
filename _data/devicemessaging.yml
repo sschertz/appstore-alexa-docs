@@ -1,0 +1,81 @@
+sidebarTitle: Device Messaging
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+folders:
+- title: Amazon Device Messaging
+  folderitems:
+
+  - title: Understanding Amazon Device Messaging
+    jurl: /adm-understanding.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-understanding
+    ref: adm-understanding
+
+  - title: Obtaining Amazon Device Messaging Credentials
+    jurl: /adm-obtaining-credentials.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-obtaining-credentials
+    ref: adm-obtaining-credentials
+
+  - title: Setting Up Amazon Device Messaging
+    jurl: /adm-setting-up
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-setting-up
+    ref: adm-setting-up
+
+  - title: Integrating Your App with Amazon Device Messaging
+    jurl: /adm-integrating-your-app.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-integrating-your-app
+    ref: adm-integrating-your-app
+
+  - title: Requesting an Access Token for Amazon Device Messaging
+    jurl: /adm-requesting-access-token.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-requesting-access-token
+    ref: adm-requesting-access-token
+
+  - title: Sending a Message via Amazon Device Messaging
+    jurl: /adm-sending-message.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-sending-message
+    ref: adm-sending-message
+
+  - title: Amazon Device Messaging FAQ
+    jurl: /adm-faq.html
+    hurl: https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/adm-faq
+    ref: adm-faq
+###########################
+
+related_resources_title: Other Resources
+
+related_resources_list:
+
+- title: Device Messaging API Reference
+  hurl: https://developer.amazon.com/public/apis/engage/device-messaging/javadoc/adm-api-reference
+
+###########################
+
+forum:
+  forum_name: Device Messaging Forum
+  forum_link: https://forums.developer.amazon.com/spaces/101/index.html

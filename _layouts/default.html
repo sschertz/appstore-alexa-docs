@@ -1,0 +1,42 @@
+{% include topnav.html %}
+
+
+<div class="container">
+        <div class="row row-offcanvas row-offcanvas-left">
+
+            <!-- sidebar -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+
+                {% include sidebar.html %}
+
+            </div>
+
+            <!-- main area -->
+            <div class="col-xs-12 col-sm-9 main">
+
+                    <div class="subtitle">{% unless page.type == "search" %}<a href="http://developer.amazon.com" class="noCrossRef productSubtitle"> {{ site.uistring.breadcrumb.home }}</a> > <a href="index.html" class="noCrossRef productSubtitle"> {{ site.uistring.breadcrumb.documentation }}</a> > {{page.product}} {% endunless %}</div>
+
+                    <h1>{{page.title}}</h1>
+
+                    {{content}}
+
+
+            </div>
+        </div><!--/.container-->
+
+
+    </div><!--/.page-container-->
+    {% if site.language == "english" %}
+    {% include footer.html %}
+    {% elsif site.language == "japanese" %}
+    {% include footer_ja.html %}
+    {% elsif site.language == "german" %}
+    {% include footer_de.html %}
+    {% endif %}
+    <!--scripts loaded here-->
+
+
+
+</body>
+
+</html>

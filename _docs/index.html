@@ -1,0 +1,94 @@
+---
+title: Amazon Developer Portal Documentation
+permalink: index.html
+topnav: topnav
+toc: false
+sidebar: null
+search: false
+layout: homepage
+type: homepage
+---
+
+<p>The Amazon Developer Portal provides documentation for developers creating apps and skills for the Amazon Appstore. Apps include streaming media apps, game apps, and more. The Developer Portal focuses on Amazon's devices, such as Echo, Fire TV, and Fire Tablets.</p>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<h2>Alexa</h2> 
+{% assign productList = site.data.homepage_products.products %}
+<ul class="homepageLinks">
+{% for product in productList %}
+    {% if product.group == "Alexa" %}
+<li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Alexa on Github</h2> 
+{% assign productList = site.data.homepage_products.products %}
+<ul class="homepageLinks">
+{% for product in productList %}
+    {% if product.group == "Alexa on Github" %}
+<li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+
+<div class="col-sm-3">
+<h2>Appstore</h2> 
+{% assign productList = site.data.homepage_products.products %}
+<ul class="homepageLinks">
+{% for product in productList %}
+    {% if product.group == "Appstore" %}
+<li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<div class="col-sm-3">
+<h2>Fire Devices</h2> 
+{% assign productList = site.data.homepage_products.products %}
+<ul class="homepageLinks">
+{% for product in productList %}
+    {% if product.group == "Fire Devices" %}
+<li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<div class="col-sm-3">
+<h2>Submissions</h2>
+{% assign productList = site.data.homepage_products.products %}
+<ul class="homepageLinks">
+{% for product in productList %}
+    {% if product.group == "Submissions" %}
+<li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+</div>
+
+{% if jekyll.environment == "team" %}
+<div class="row">
+<div class="col-sm-3">
+    <h2>DevComm</h2>
+    {% assign productList = site.data.homepage_products.products %}
+    <ul class="homepageLinks">
+        {% for product in productList %}
+        {% if product.group == "DevComm" %}
+        <li><a class="noCrossRef" href="{{ product.link }}">{{ product.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+</div>
+</div>
+{% endif %}
+
+
+   
