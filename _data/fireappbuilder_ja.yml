@@ -1,0 +1,270 @@
+sidebarTitle: Fire App Builder
+owner: tomjoht
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+
+folders:
+- title: Introduction
+  folderitems:
+
+  - title: "Fire App Builder: JavaベースのAmazon Fire TVおよびAndroidアプリ向けスターターキット"
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-overview
+    jurl: /fire-app-builder-overview.html
+    ref: fire-app-builder-overview
+    bookmarks: [requirements]
+
+  - title: リリースノート
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-release-notes
+    jurl: /fire-app-builder-release-notes.html
+    ref: fire-app-builder-release-notes
+    bookmarks: [known_issues]
+
+  - title: アプリを作成するための一連のプロセス
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-end-to-end-process
+    jurl: /fire-app-builder-end-to-end-process.html
+    ref: fire-app-builder-end-to-end-process
+
+  - title: よくある質問
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-questions-and-answers
+    jurl: /fire-app-builder-questions-and-answers.html
+    ref: fire-app-builder-questions-and-answers
+    bookmarks: [translator]
+
+- title: 1. Get Set Up
+  folderitems:
+
+  - title: Fire App Builderをダウンロードして、アプリをビルドする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-download-and-build
+    jurl: /fire-app-builder-download-and-build.html
+    ref: fire-app-builder-download-and-build
+    bookmarks: customize
+
+  - title: ADBを使用してFire TVに接続する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-connecting-adb-to-fire-tv
+    jurl: /fire-app-builder-connecting-adb-to-fire-tv.html
+    ref: fire-app-builder-connecting-adb-to-fire-tv
+
+  - title: アプリの概要
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-app-tour
+    jurl: /fire-app-builder-app-tour.html
+    ref: fire-app-builder-app-tour
+
+- title: 2. Configure Your Feed
+  folderitems:
+  - title: メディアフィードをロードする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-load-media-feed
+    jurl: /fire-app-builder-load-media-feed.html
+    ref: fire-app-builder-load-media-feed
+
+  - title: レシピ構成の概要
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-overview
+    jurl: /fire-app-builder-set-up-recipes-overview.html
+    ref: fire-app-builder-set-up-recipes-overview
+
+  - title: カテゴリレシピをセットアップする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-categories
+    jurl: /fire-app-builder-set-up-recipes-categories.html
+    ref: fire-app-builder-set-up-recipes-categories
+    bookmarks: [matchlistparameter]
+
+  - title: コンテンツレシピをセットアップする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-set-up-recipes-contents
+    jurl: /fire-app-builder-set-up-recipes-content.html
+    ref: fire-app-builder-set-up-recipes-content
+    bookmarks: [matchlistparameter, tags]
+
+  - title: Navigatorの構成の概要
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-configure-navigator
+    jurl: /fire-app-builder-configure-navigator.html
+    ref: fire-app-builder-configure-navigator
+
+  - title: Navigatorの構成 -- トークンベースフィード
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-configure-navigator-token-feeds
+    jurl: /fire-app-builder-configure-navigator-token-feeds.html
+    ref: fire-app-builder-configure-navigator-token-feeds
+
+  - title: Navigatorの構成 -- オープンフィード
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-configure-navigator-open-feeds
+    jurl: /fire-app-builder-configure-navigator-open-feeds.html
+    ref: fire-app-builder-configure-navigator-open-feeds
+    bookmarks: [hardcodingcategories]
+
+- title: 3. Customize the Appearance
+  folderitems:
+
+  - title: アプリのルックアンドフィールをカスタマイズする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-customize-look-and-feel
+    jurl: /fire-app-builder-customize-look-and-feel.html
+    ref: fire-app-builder-customize-look-and-feel
+    bookmarks: [recommendations]
+
+- title: 4. Add Components
+  folderitems:
+
+  - title: コンポーネントの概要
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-interfaces-and-components
+    jurl: /fire-app-builder-interfaces-and-components.html
+    ref: fire-app-builder-interfaces-and-components
+    bookmarks: [componentgroups]
+
+  - title: アプリにコンポーネントをロードする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-load-a-component
+    jurl: /fire-app-builder-load-a-component.html
+    ref: fire-app-builder-load-a-component
+    bookmarks: [removeacomponent]
+
+  - title: 新しいFire App Builderコンポーネントを作成する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-create-a-new-component
+    jurl: /fire-app-builder-create-a-new-component.html
+    ref: fire-app-builder-create-a-new-component
+
+    subfolders:
+    - title: Ads components
+      subfolderitems:
+
+      - title: Freewheel広告コンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-freewheel-ads-component
+        jurl: /fire-app-builder-freewheel-ads-component.html
+        ref: fire-app-builder-freewheel-ads-component
+
+      - title: VAST広告コンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-vast-ads-component
+        jurl: /fire-app-builder-vast-ads-component.html
+        ref: fire-app-builder-vast-ads-component
+
+    - title: Analytics components
+      subfolderitems:
+
+      - title: Crashlyticsコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-crashlytics-component
+        jurl: /fire-app-builder-crashlytics-component.html
+        ref: fire-app-builder-crashlytics-component
+
+      - title: Flurry Analyticsコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-flurry-analytics-component
+        jurl: /fire-app-builder-flurry-analytics-component.html
+        ref: fire-app-builder-flurry-analytics-component
+
+      - title: Googleアナリティクスコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-google-analytics-component
+        jurl: /fire-app-builder-google-analytics-component.html
+        ref: fire-app-builder-google-analytics-component
+
+      - title: Omniture Analyticsコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-omniture-analytics-component
+        jurl: /fire-app-builder-omniture-analytics-component.html
+        ref: fire-app-builder-omniture-analytics-component
+
+    - title: Authorization components
+      subfolderitems:
+
+      - title: Adobe Pass認証コンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-adobe-pass-auth-component
+        jurl: /fire-app-builder-adobe-pass-auth-component.html
+        ref: fire-app-builder-adobe-pass-auth-component
+
+      - title: Facebook認証コンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-facebook-auth-component
+        jurl: /fire-app-builder-facebook-auth-component.html
+        ref: fire-app-builder-facebook-auth-component
+
+      - title: Login with Amazonコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-login-with-amazon-component
+        jurl: /fire-app-builder-login-with-amazon-component.html
+        ref: fire-app-builder-login-with-amazon-component
+
+    - title: Purchasing components
+      subfolderitems:
+
+      - title: Amazonアプリ内課金のコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-amazon-in-app-purchase-component
+        jurl: /fire-app-builder-amazon-in-app-purchase-component.html
+        ref: fire-app-builder-amazon-in-app-purchase-component
+
+    - title: Media components
+      subfolderitems:
+
+      - title: Amazon Media Playerコンポーネント
+        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-amazon-media-player-component
+        jurl: /fire-app-builder-amazon-media-player-component.html
+        ref: fire-app-builder-amazon-media-player-component
+
+- title: Other Development Topics
+  folderitems:
+
+  - title: Githubから更新データをプルする
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-pulling-updates-from-github
+    jurl: /fire-app-builder-pulling-updates-from-github.html
+    ref: fire-app-builder-pulling-updates-from-github
+
+  - title: ライブストリーミングを構成する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-live-stream-configuration
+    jurl: /fire-app-builder-live-stream-configuration.html
+    ref: fire-app-builder-live-stream-configuration
+
+  - title: Fire TVカタログにメディアを組み込む
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-catalog-integration
+    jurl: /fire-app-builder-catalog-integration.html
+    ref: fire-app-builder-catalog-integration
+
+  - title: "Android TVエミュレーターを使用してアプリを実行する"
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-use-an-android-tv-emulator
+    jurl: /fire-app-builder-use-an-android-tv-emulator.html
+    ref: fire-app-builder-use-an-android-tv-emulator
+
+  - title: JSONでクエリを実行する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-querying-json
+    jurl: /fire-app-builder-querying-json.html
+    ref: fire-app-builder-querying-json
+
+  - title: XMLでクエリを実行する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-querying-xml
+    jurl: /fire-app-builder-querying-xml.html
+    ref: fire-app-builder-querying-xml
+
+  - title: トラブルシューティング
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-troubleshooting
+    jurl: /fire-app-builder-troubleshooting.html
+    ref: fire-app-builder-troubleshooting
+
+
+
+###########################
+
+related_resources_title: その他のリソース
+
+related_resources_list:
+
+- title: Fire TV
+  hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+  jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+
+forum:
+  forum_name: Fire TV Forum
+  forum_link: https://forums.developer.amazon.com/spaces/43/index.html

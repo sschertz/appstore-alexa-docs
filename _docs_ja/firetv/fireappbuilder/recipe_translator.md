@@ -1,0 +1,1 @@
+フィードのオブジェクトをFire App Builderのコンテンツモデルに変換する際にトランスレーションとリフレクションのどちらを使用するかを指定します。トランスレーションの方が高速で、推奨される変換方法です。トランスレーションを使用するには、値をデフォルトの {{include.default_value}} のままにします。リフレクションを使用する場合は、`translator`パラメータをレシピから完全に削除してください。また、リフレクションを使用するには`matchlist`パラメータで使用される名前を変更する必要があるため、「[FAQ][fire-app-builder-questions-and-answers#translator]」で「How do I use reflection...」という質問を参照してください。

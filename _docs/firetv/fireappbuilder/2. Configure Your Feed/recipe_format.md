@@ -1,0 +1,1 @@
+Specifies the data format for the incoming data feed. Options are `json` or `xml`.

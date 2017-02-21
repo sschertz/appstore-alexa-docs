@@ -1,0 +1,1 @@
+Specifies whether the feed is an array or a single object. Available options are `array` or `single`. Almost all feeds are `array`. For example, if your JSON feed is enclosed within square brackets, or your XML feed has nested angle brackets, choose `array`. If your feed is structured as a single object, choose `single`. 

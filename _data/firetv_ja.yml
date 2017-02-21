@@ -1,0 +1,332 @@
+sidebarTitle: Fire TV
+owner: tomjoht
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+
+folders:
+- title: Overview
+  folderitems:
+
+  - title: Amazon Fire TV用アプリとゲームを開発するための準備
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+    jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+    ref: getting-started-developing-apps-and-games-for-amazon-fire-tv
+
+  - title: Fire TV端末の仕様
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/device-and-platform-specifications
+    jurl: /device-and-platform-specifications.html
+    ref: device-and-platform-specifications
+
+  - title: Amazon Fire TV開発フレームワークの比較
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-development-framework-comparison
+    jurl: /fire-tv-development-framework-comparison.html
+    ref: fire-tv-development-framework-comparison
+
+  - title: Fire TV開発とAndroid TV開発の違い
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/amazon-fire-tv-differences-from-android-tv-development
+    jurl: /amazon-fire-tv-differences-from-android-tv-development.html
+    ref: amazon-fire-tv-differences-from-android-tv-development
+
+  - title: TVプラットフォーム向けのデザインとユーザーエクスペリエンスのガイドライン
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/design-and-user-experience-guidelines
+    jurl: /design-and-user-experience-guidelines.html
+    ref: design-and-user-experience-guidelines
+
+#  - title: What Is Fire OS?
+#    jurl: /fire-os-overview.html
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/fire-os/docs/fire-os-overview
+#    ref: fire-os-overview
+
+  - title: Fire TV開発における最新情報
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/whats-new-in-the-fire-tv-sdk
+    jurl: /whats-new-in-the-fire-tv-sdk.html
+    ref: whats-new-in-the-fire-tv-sdk
+
+  - title: Amazon Fire TVのよくある質問 (FAQ)
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/amazon-fire-tv-sdk-frequently-asked-questions
+    jurl: /amazon-fire-tv-sdk-frequently-asked-questions.html
+    ref: amazon-fire-tv-sdk-frequently-asked-questions
+
+  - title: AmazonアプリストアへのFire TVアプリの申請
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/submitting-your-fire-tv-app-to-the-amazon-appstore
+    jurl: /submitting-your-fire-tv-app-to-the-amazon-appstore.html
+    ref: submitting-your-fire-tv-app-to-the-amazon-appstore
+
+- title: Set Up Your Development Environment
+  folderitems:
+
+  - title: 開発環境のセットアップ
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/setting-up-your-development-environment
+    jurl: /setting-up-your-development-environment.html
+    ref: setting-up-your-development-environment
+
+  - title: ADBを使用してFire TVに接続する
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/connecting-adb-to-fire-tv-device
+    jurl: /connecting-adb-to-fire-tv-device.html
+    ref: connecting-adb-to-fire-tv-device
+    bookmarks: [addadbpath]
+
+  - title: アプリのインストールと実行
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/installing-and-running-your-app
+    jurl: /installing-and-running-your-app.html
+    ref: installing-and-running-your-app
+
+- title: Controllers in Android Apps
+  folderitems:
+  - title: コントローラの概要
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/supporting-controllers-on-amazon-fire-tv
+    jurl: /supporting-controllers-on-amazon-fire-tv.html
+    ref: supporting-controllers-on-amazon-fire-tv
+
+  - title: リモート入力
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/amazon-fire-tv-remote-input
+    jurl: /amazon-fire-tv-remote-input.html
+    ref: amazon-fire-tv-remote-input
+
+  - title: ゲームコントローラ入力
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/amazon-fire-game-controller-input
+    jurl: /amazon-fire-game-controller-input.html
+    ref: amazon-fire-game-controller-input
+
+  - title: Unityによるコントローラ入力
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/controller-input-with-unity
+    jurl: /controller-input-with-unity.html
+    ref: controller-input-with-unity
+
+  - title: コントローラの識別
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/identifying-controllers
+    jurl: /identifying-controllers.html
+    ref: identifying-controllers
+
+  - title: コントローラ動作のガイドライン
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/controller-behavior-guidelines
+    jurl: /controller-behavior-guidelines.html
+    ref: controller-behavior-guidelines
+
+  - title: コントローラ画像アセット
+    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/controller-image-assets
+    jurl: /controller-image-assets.html
+    ref: controller-image-assets
+
+#- title: Development Best Practices
+#  folderitems:
+#  - title: Mouse Pointers
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/customizing-mouse-pointer
+#    jurl: /customizing-mouse-pointer.html
+#    ref: customizing-mouse-pointer
+#
+#  - title: Display and Layout
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/display-and-layout
+#    jurl: /display-and-layout.html
+#    ref: display-and-layout
+#
+#  - title: User Agent Strings
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/user-agent-strings
+#    jurl: /user-agent-strings.html
+#    ref: user-agent-strings
+#
+#  - title: Managing Audio Focus
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/managing-audio-focus
+#    jurl: /managing-audio-focus.html
+#    ref: managing-audio-focus
+#    bookmarks: [audiofocusvoice]
+#
+#  - title: Media Players
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-media-players
+#    jurl: /fire-tv-media-players.html
+#    ref: fire-tv-media-players
+#    bookmarks: [exoplayer]
+#
+#  - title: Dolby Integration
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/amazon-fire-tv-dolby-integration-guidelines
+#    jurl: /amazon-fire-tv-dolby-integration-guidelines.html
+#    ref: amazon-fire-tv-dolby-integration-guidelines
+#
+#  - title: Identifying Fire TV Devices
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/identifying-amazon-fire-tv-devices
+#    jurl: /identifying-amazon-fire-tv-devices.html
+#    ref: identifying-amazon-fire-tv-devices
+#
+#  - title: HDMI Events
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-handling-hdmi-events
+#    jurl: /fire-tv-handling-hdmi-events.html
+#    ref: fire-tv-handling-hdmi-events
+#
+#  - title: 4K Ultra HD Videos
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-4k-ultra-hd
+#    jurl: /fire-tv-4k-ultra-hd.html
+#    ref: fire-tv-4k-ultra-hd
+#
+#  - title: User Interface
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/user-interface
+#    jurl: /user-interface.html
+#    ref: user-interface
+#
+#  - title: DIAL Integration
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/dial-integration
+#    jurl: /dial-integration.html
+#    ref: dial-integration
+#
+#  - title: Search
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/implementing-search-fire-tv
+#    jurl: /implementing-search-fire-tv.html
+#    ref: implementing-search-fire-tv
+#    bookmarks: [voicesearch]
+#
+#  - title: Notifications
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/notifications-for-amazon-fire-tv
+#    jurl: /notifications-for-amazon-fire-tv.html
+#    ref: notifications-for-amazon-fire-tv
+#
+#  - title: App Installation Location
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/specifying-installation-location
+#    jurl: /specifying-installation-location.html
+#    ref: specifying-installation-location
+#
+#  - title: Advertising ID
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/fire-os/docs/fire-os-advertising-id
+#    jurl: /fire-os-advertising-id.html
+#    ref: fire-os-advertising-id
+#
+#  - title: Resources for International Locales
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tablets/app-development/07-resources-for-international-locales
+#    jurl: /07-resources-for-international-locales.html
+#    ref: 07-resources-for-international-locales
+#
+#- title: Developer Tools on Fire TV
+#  folderitems:
+#
+#  - title: Developer Tool Options
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-system-xray-developer-tools
+#    jurl: /fire-tv-system-xray-developer-tools.html
+#    ref: fire-tv-system-xray-developer-tools
+#
+#  - title: System X-Ray
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-system-xray
+#    jurl: /fire-tv-system-xray.html
+#    ref: fire-tv-system-xray
+#
+#  - title: Customize System X-Ray
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-system-xray-customized-metrics
+#    jurl: /fire-tv-system-xray-customized-metrics.html
+#    ref: fire-tv-system-xray-customized-metrics
+#
+#- title: Accessibility
+#  folderitems:
+#
+#  - title: Understanding Assistive Technologies for Fire OS
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/fire-os/docs/understanding-assistive-technologies-for-fireos
+#    jurl: /understanding-assistive-technologies-for-fireos.html
+#    ref: understanding-assistive-technologies-for-fireos
+#
+#  - title: Implementing Accessibility in Fire OS
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/fire-os/docs/implementing-accessibility-in-fireos
+#    jurl: /implementing-accessibility-in-fireos.html
+#    ref: implementing-accessibility-in-fireos
+#
+#  - title: Implementing VoiceView Accessibility Features
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/fire-os/docs/implementing-future-voiceview-accessibility-features
+#    jurl: /implementing-future-voiceview-accessibility-features.html
+#    ref: implementing-future-voiceview-accessibility-features
+
+
+#- title: Recommendations
+#  folderitems:
+#  - title: Recommendations Overview
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-recommended-by-your-apps
+#    jurl: /fire-tv-recommendations-overview.html
+#    ref: fire-tv-recommendations-overview
+#
+#  - title: Try Out Recommendations
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-recommendations-testing
+#    jurl: /fire-tv-recommendations-testing.html
+#    ref: fire-tv-recommendations-testing
+#
+#  - title: Create Recommmendations that Include Amazon Enhancements
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-recommended-by-your-apps
+#    jurl: /fire-tv-recommendations-create-recommendations.html
+#    ref: fire-tv-recommendations-create-recommendations
+#
+#  - title: Best Practices with Recommendations
+#    hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-tv-recommendations-best-practices
+#    jurl: /fire-tv-recommendations-best-practices.html
+#    ref: fire-tv-recommendations-best-practices
+
+#- title: Build Webapps for Fire TV
+#  folderitems:
+#  - title: Get Started with Web Apps
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/getting-started-with-web-apps-for-fire-tv
+#    jurl: /getting-started-with-web-apps-for-fire-tv.html
+#    ref: getting-started-with-web-apps-for-fire-tv
+#    bookmarks: [resolution_scaling,focus_changes]
+#
+#  - title: Web App Controllers
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/supporting-controllers-in-web-apps
+#    jurl: /supporting-controllers-in-web-apps.html
+#    ref: supporting-controllers-in-web-apps
+#    bookmarks: [using_input]
+#
+#  - title: Web App Starter Kit
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/the-web-app-starter-kit-for-fire-tv
+#    jurl: /the-web-app-starter-kit-for-fire-tv.html
+#    ref: the-web-app-starter-kit-for-fire-tv
+#
+#  - title: Customize your App
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/customizing-your-fire-tv-web-app
+#    jurl: /customizing-your-fire-tv-web-app.html
+#    ref: customizing-your-fire-tv-web-app
+#
+#  - title: Migrate Your App to Fire TV
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/migrating-your-web-app-to-fire-tv
+#    jurl: /migrating-your-web-app-to-fire-tv.html
+#    ref: migrating-your-web-app-to-fire-tv
+#
+#  - title: Web App FAQ
+#    hurl: https://developer.amazon.com/public/ja/solutions/platforms/webapps/docs/fire-tv-web-app-faq
+#    jurl: /fire-tv-web-app-faq.html
+#    ref: fire-tv-web-app-faq
+#    bookmarks: [unchanging_duration,close_webapp,customize_back]
+
+
+
+########################
+
+related_resources_title: その他のリソース
+
+related_resources_list:
+
+- title: Fire App Builder
+  hurl: https://developer.amazon.com/public/ja/solutions/devices/fire-tv/docs/fire-app-builder-overview
+  jurl: /fire-app-builder-overview.html
+
+###########################
+
+forum:
+  forum_name: Fire TV Forum
+  forum_link: https://forums.developer.amazon.com/spaces/43/index.html

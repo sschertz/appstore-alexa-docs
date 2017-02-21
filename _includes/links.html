@@ -1,0 +1,144 @@
+{% comment %}
+
+_      _          _ _
+(_) ___| | ___   _| | |
+| |/ _ \ |/ / | | | | |
+| |  __/   <| |_| | | |
+_/ |\___|_|\_\\__, |_|_|
+|__/           |___/
+
+{% endcomment %}
+
+
+{% if site.language == "english" %}
+{% assign homepage_products = homepage_products %}
+{% elsif site.language == "german" %}
+{% assign homepage_products = homepage_products_de %}
+{% elsif site.language == "japanese" %}
+{% assign homepage_products = homepage_products_ja %}
+{% endif %}
+
+{% if site.target == "jekyll" %}
+{% for sidebar in site.data.{{homepage_products}}.products %}
+{% for folder in site.data[sidebar.shortname].folders %}
+{% for folderitem in folder.folderitems %}
+
+{% if folderitem.ref %}
+{% if folderitem.jurl contains "http://" or folderitem.jurl contains "https://" %}
+[{{folderitem.ref}}]: {{folderitem.jurl }}
+{% for bookmark in folderitem.bookmarks %}
+[{{folderitem.ref | append: "#" | append: bookmark }}]: {{folderitem.jurl | append: "#" | append: bookmark }}
+{% endfor %}
+
+{% else %}
+[{{folderitem.ref}}]: {{folderitem.jurl | remove: "/"}}
+{% for bookmark in folderitem.bookmarks %}
+[{{folderitem.ref | append: "#" | append: bookmark }}]: {{folderitem.jurl | remove: "/" | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% for subfolder in folderitem.subfolders %}
+{% for subfolderitem in subfolder.subfolderitems %}
+
+{% if subfolderitem.ref %}
+{% if subfolderitem.jurl contains "http://" or subfolderitem.jurl contains "https://" %}
+[{{subfolderitem.ref}}]: {{subfolderitem.jurl}}
+{% for bookmark in subfolderitem.bookmarks %}
+[{{subfolderitem.ref | append: "#" | append: bookmark }}]: {{subfolderitem.jurl | append: "#" | append: bookmark }}
+{% endfor %}
+
+{% else %}
+[{{subfolderitem.ref}}]: {{subfolderitem.jurl | remove: "/"}}
+{% for bookmark in subfolderitem.bookmarks %}
+[{{subfolderitem.ref | append: "#" | append: bookmark }}]: {{subfolderitem.jurl | remove: "/" | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% for subsubfolder in subfolderitem.subsubfolders %}
+{% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+
+{% if subsubfolderitem.ref %}
+{% if subsubfolderitem.jurl contains "http://" or subsubfolderitem.jurl contains "https://" %}
+[{{subsubfolderitem.ref}}]: {{ subsubfolderitem.jurl }}
+{% for bookmark in subfolderitem.bookmarks %}
+[{{subsubfolderitem.ref | append: "#" | append: bookmark }}]: {{subsubfolderitem.jurl | append: "#" | append: bookmark }}
+{% endfor %}
+
+{% else %}
+[{{subsubfolderitem.ref}}]: {{subsubfolderitem.jurl | remove: "/"}}
+{% for bookmark in subsubfolderitem.bookmarks %}
+[{{subsubfolderitem.ref | append: "#" | append: bookmark }}]: {{subsubfolderitem.jurl | remove: "/" | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+{% endif%}
+
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+
+{% endif %}
+
+
+{% comment %}
+_     _
+| |__ (_)_ __  _ __   ___
+| '_ \| | '_ \| '_ \ / _ \
+| | | | | |_) | |_) | (_) |
+|_| |_|_| .__/| .__/ \___/
+|_|   |_|
+{% endcomment %}
+
+{% if site.target == "hippo" %}
+
+{% for sidebar in site.data.{{homepage_products}}.products %}
+{% for folder in site.data[sidebar.shortname].folders %}
+{% for folderitem in folder.folderitems %}
+
+{% if folderitem.ref %}
+[{{folderitem.ref}}]: {{folderitem.hurl}}
+{% for bookmark in folderitem.bookmarks %}
+[{{folderitem.ref | append: "#" | append: bookmark }}]: {{folderitem.hurl | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+
+{% for subfolder in folderitem.subfolders %}
+{% for subfolderitem in subfolder.subfolderitems %}
+
+{% if subfolderitem.ref %}
+[{{subfolderitem.ref}}]: {{subfolderitem.hurl}}
+{% for bookmark in subfolderitem.bookmarks %}
+[{{subfolderitem.ref | append: "#" | append: bookmark }}]: {{subfolderitem.hurl | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+
+{% for subsubfolder in subfolderitem.subsubfolders %}
+{% for subsubfolderitem in subsubfolder.subsubfolderitems %}
+
+{% if subfolderitem.ref %}
+[{{subsubfolderitem.ref}}]: {{subsubfolderitem.hurl}}
+{% for bookmark in subsubfolderitem.bookmarks %}
+[{{subsubfolderitem.ref | append: "#" | append: bookmark }}]: {{subsubfolderitem.hurl | append: "#" | append: bookmark }}
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+{% comment %} These files define additional links used in the ASK docs
+
+{% include common_links.md %}
+{% include nlu-content/entity-reference-links.md %}
+{% include nlu-content/slot-type-bookmark-links.md %}
+{% endcomment %}

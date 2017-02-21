@@ -1,0 +1,231 @@
+sidebarTitle: Publishing to the Amazon Appstore
+owner: michrose
+
+## Keep this commented out content because it shows the YAML model for the sidebar.
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+## Note that if you have a folder with no items (just other subfolders), you must include at least one item outside the folder. For the obligatory item, just use a single "-" with no other properties.
+
+folders:
+
+- title: Preparing Your App for Submission
+  folderitems:
+
+  - title: Amazon Appstore Presubmission Checklist
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-presubmission-checklist
+    jurl: /appstore-presubmission-checklist.html
+    ref: appstore-presubmission-checklist
+
+  - title: Understanding Amazon Appstore Submission
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-understanding-submission
+    jurl: /appstore-understanding-submission.html
+    ref: appstore-understanding-submission
+
+  - title: Migrating An Existing App to the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-migrate-existing-app
+    jurl: /appstore-migrate-existing-app.html
+    ref: appstore-migrate-existing-app
+
+  - title: Avoiding Compile Errors When Submitting Your App
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-avoid-compile-errors
+    jurl: /appstore-avoid-compile-errors.html
+    ref: appstore-avoid-compile-errors
+
+  - title: Taking Screenshots on Fire Devices
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/taking-screenshots
+    jurl: /taking-screenshots.html
+    ref: taking-screenshots
+    bookmarks: [firetv, firetablets]
+
+- title: Troubleshooting and Best Practices
+  folderitems:
+
+  - title: Avoiding Compile Errors When Submitting Your App
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-avoid-compile-errors
+    jurl: /appstore-avoid-compile-errors.html
+    ref: appstore-avoid-compile-errors
+
+  - title: Troubleshooting SSL Validation
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-ssl-validation
+    jurl: /appstore-ssl-validation.html
+    ref: appstore-ssl-validation
+
+- title: Submission Requirements
+  folderitems:
+
+  - title: Amazon Appstore Content Policy Requirements
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-content-policy
+    jurl: /appstore-content-policy.html
+    ref: appstore-content-policy
+    bookmarks: [faq]
+
+  - title: Policy for Personal Information and Apps Directed at Children
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-coppa-policy
+    jurl: /appstore-coppa-policy.html
+    ref: appstore-coppa-policy
+    bookmarks: [faq]
+
+  - title: Image Guidelines for Amazon Appstore Submission
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/asset-guidelines-for-app-submission
+    jurl: /asset-guidelines-for-app-submission.html
+    ref: asset-guidelines-for-app-submission
+    bookmarks: [firetvassets]
+
+  - title: Test Criteria for Amazon Appstore Apps
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-test-criteria
+    jurl: /appstore-test-criteria.html
+    ref: appstore-test-criteria
+
+- title: Targeting Devices
+  folderitems:
+
+  - title: Getting Started with Device Targeting
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/getting-started-with-device-targeting
+    jurl: /getting-started-with-device-targeting.html
+    ref: getting-started-with-device-targeting
+    bookmarks: [build_apks]
+
+  - title: Targeting Amazon Devices with Your Android Manifest
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/targeting-amazon-devices-with-your-android-manifest
+    jurl: /targeting-amazon-devices-with-your-android-manifest.html
+    ref: targeting-amazon-devices-with-your-android-manifest
+
+  - title: Manifest Filters Supported by the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/supported-filters-on-the-amazon-appstore
+    jurl: /supported-filters-on-the-amazon-appstore.html
+    ref: supported-filters-on-the-amazon-appstore
+
+  - title: Troubleshooting Android Manifest and Device Targeting
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/troubleshooting-android-manifest-and-device-targeting
+    jurl: /troubleshooting-android-manifest-and-device-targeting.html
+    ref: troubleshooting-android-manifest-and-device-targeting
+
+  - title: Manifest Filter Reference (.xlsx)
+    hurl: https://developer.amazon.com/public/binaries/content/assets/xls/manifest-filter-reference-for-fire-devices---2016-feb-26.xlsx
+    jurl: https://developer.amazon.com/public/binaries/content/assets/xls/manifest-filter-reference-for-fire-devices---2016-feb-26.xlsx
+    ref: manifest-filter
+
+- title: Testing Your App
+  folderitems:
+
+  - title: Testing Your App for the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/testing-your-app
+    jurl: /testing-your-app.html
+    ref: testing-your-app
+
+  - title: Getting Started With Live App Testing
+    hurl: https://developer.amazon.com/public/resources/development-tools/live-app-testing/docs/getting-started-with-live-app-testing
+    jurl: /getting-started-with-live-app-testing.html
+    ref: getting-started-with-live-app-testing
+
+  - title: Understanding the App Testing Service
+    hurl: https://developer.amazon.com/public/resources/development-tools/app-testing-service/tech-docs/app-testing-service-understanding
+    jurl: /app-testing-service-understanding.html
+    ref: app-testing-service-understanding
+
+- title: Submitting Your App
+  folderitems:
+
+  - title: Quick Start Links for Submitting Apps
+    hurl: https://developer.amazon.com/public/support/submitting-your-app
+    jurl: /submitting-your-app.html
+    ref: submitting-your-app
+
+  - title: Submitting Apps to the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/submitting-apps-to-amazon-appstore
+    jurl: /submitting-apps-to-amazon-appstore.html
+    ref: submitting-apps-to-amazon-appstore
+    bookmarks: [APK, SecurityProfile]
+
+  - title: Viewing Your App's Submission Status
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/viewing-app-submission-status
+    jurl: /viewing-app-submission-status.html
+    ref: viewing-app-submission-status
+
+  - title: Setting User Permissions for the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-user-permissions
+    jurl: /appstore-user-permissions.html
+    ref: appstore-user-permissions
+
+  - title: Updating a Published App
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/update-published-app
+    jurl: /update-published-app.html
+    ref: update-published-app
+
+  - title: Unlisting An App Version from the Amazon Appstore
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-unlist-app
+    jurl: /appstore-unlist-app.html
+    ref: appstore-unlist-app
+
+  - title: Appstore Publishing FAQ
+    hurl: https://developer.amazon.com/public/support/faq
+    jurl: /faq.html
+    ref: faq
+    bookmarks: [policy_intellectual_property, policy_guidelines, account_permissions, web_apps, pc_mac_software, international_distribution]
+
+- title: Getting Paid for Your Apps
+  folderitems:
+
+  - title: Understanding Amazon Appstore Payments
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/payments-understanding
+    jurl: /payments-understanding.html
+    ref: payments-understanding
+
+  - title: Setting Up Taxes for Your App
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/payments-tax
+    jurl: /payments-tax.html
+    ref: payments-tax
+
+  - title: Viewing Reports for Your App
+    hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/payments-reports
+    jurl: /payments-reports.html
+    ref: payments-reports
+
+related_resources_title: Other Resources
+
+related_resources_list:
+
+- title: Fire TV documentation
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+
+- title: App Testing Service
+  hurl: https://developer.amazon.com/app-testing-service
+
+- title: Submit Your Apps
+  hurl: https://developer.amazon.com/public/support/submitting-your-app
+
+- title: Appstore Forum
+  hurl: https://forums.developer.amazon.com/spaces/167/index.html
+
+
+###########################
+
+forum:
+  forum_link: https://forums.developer.amazon.com/spaces/167/index.html
+  forum_name: Appstore Forum

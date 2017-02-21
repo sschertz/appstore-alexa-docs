@@ -1,0 +1,197 @@
+sidebarTitle: Fling SDK
+owner: tomjoht
+
+## Keep this commented out content because it shows the YAML model for the sidebar.
+
+#folders:
+#- title: Theme documentation
+#  folderitems:
+#
+#  - title: Some content
+#    jurl: /sublevel1.html
+#    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#    ref: sublevel1
+#
+#    subfolders:
+#    - title: Another level deep
+#      subfolderitems:
+#
+#      - title: Some content
+#        jurl: /sublevel1.html
+#        hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level2
+#        ref: sublevel1
+#
+#        subsubfolders:
+#        - title: Last level deep
+#          subsubfolderitems:
+#
+#          - title: Some content last level
+#            jurl: /sublevel1.html
+#            hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level3
+#            ref: sample
+
+## Note that if you have a folder with no items (just other subfolders), you must include at least one item outside the folder. For the obligatory item, just use a single "-" with no other properties.
+
+folders:
+
+- title: Fling Overview
+  folderitems:
+
+  - title: Understanding the Amazon Fling Service
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/understanding-the-amazon-fling-service
+    jurl: /understanding-the-amazon-fling-service.html
+    ref: understanding-the-amazon-fling-service
+
+  - title: Download the Fling SDK
+    hurl: https://developer.amazon.com/public/resources/development-tools/sdk
+    jurl: https://developer.amazon.com/public/resources/development-tools/sdk
+    ref: download-the-fling-sdk
+
+  - title: Amazon Fling Frequently Asked Questions
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/amazon-fling-frequently-asked-questions
+    jurl: /amazon-fling-frequently-asked-questions.html
+    ref: amazon-fling-frequently-asked-questions
+
+
+- title: Settting Up Fling
+  folderitems:
+
+  - title: Setting Up Your Amazon Fling Development Environment for Android
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/setting-up-your-amazon-fling-development-environment-for-android
+    jurl: /setting-up-your-amazon-fling-development-environment-for-android.html
+    ref: setting-up-your-amazon-fling-development-environment-for-android
+
+  - title: Setting Up your Amazon Fling Development Environment for iOS
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/setting-up-your-amazon-fling-development-environment-for-ios
+    jurl: /setting-up-your-amazon-fling-development-environment-for-ios.html
+    ref: setting-up-your-amazon-fling-development-environment-for-ios
+
+- title: Integrating Fling with Android, iOS, and Fire TV Apps
+  folderitems:
+  - title: Integrating Amazon Fling into Your Android App
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-into-your-android-app
+    jurl: /integrating-amazon-fling-into-your-android-app.html
+    ref: integrating-amazon-fling-into-your-android-app
+
+  - title: Integrating Amazon Fling into your iOS App
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-into-your-ios-app
+    jurl: /integrating-amazon-fling-into-your-ios-app.html
+    ref: integrating-amazon-fling-into-your-ios-app
+
+  - title: Integrating Amazon Fling SDK into your Fire TV App
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-into-your-fire-tv-app
+    jurl: /integrating-amazon-fling-into-your-fire-tv-app.html
+    ref: integrating-amazon-fling-into-your-fire-tv-app
+
+  - title: Using Amazon Fling with Android MediaRouter
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/using-amazon-fling-with-android-mediarouter
+    jurl: /using-amazon-fling-with-android-mediarouter.html
+    ref: using-amazon-fling-with-android-mediarouter
+
+  - title: Working with the Built-in Receiver on the Fire TV Platform
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/working-with-built-in-receiver-on-fire-tv
+    jurl: /working-with-built-in-receiver-on-fire-tv.html
+    ref: working-with-built-in-receiver-on-fire-tv
+
+- title: Integrating Fling with Google Cast Apps
+  folderitems:
+  - title: Integrating Amazon Fling with Apps that Use Google Cast
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-with-cast
+    jurl: /integrating-amazon-fling-with-cast.html
+    ref: integrating-amazon-fling-with-cast
+
+  - title: Integrating Amazon Fling with an Existing Android App that Uses Google Cast
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-with-an-existing-android-cast-app
+    jurl: /integrating-amazon-fling-with-an-existing-android-cast-app.html
+    ref: integrating-amazon-fling-with-an-existing-android-cast-app
+
+  - title: Integrating Amazon Fling with an Existing iOS App that uses Google Cast
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/integrating-amazon-fling-with-an-existing-ios-cast-app
+    jurl: /integrating-amazon-fling-with-an-existing-ios-cast-app.html
+    ref: integrating-amazon-fling-with-an-existing-ios-cast-app
+
+
+- title: Fling UX
+  folderitems:
+
+  - title: Designing Amazon Fling UX
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/designing-amazon-fling-ux
+    jurl: /designing-amazon-fling-ux.html
+    ref: designing-amazon-fling-ux
+
+- title: Remote Install
+  folderitems:
+  - title: Remote Install
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/remote-install
+    jurl: /remote-install.html
+    ref: remote-install
+
+  - title: Integrating Remote Install into Your Android App
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/android-remote-install
+    jurl: /android-remote-install.html
+    ref: android-remote-install
+
+  - title: Integrating Remote Install into Your iOS App
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/ios-remote-install
+    jurl: /ios-remote-install.html
+    ref: ios-remote-install
+
+- title: Unity Plugins
+  folderitems:
+  - title: Integrating the Amazon Fling Controller In Your Games
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/unity-controller-plugin
+    jurl: /unity-controller-plugin.html
+    ref: unity-controller-plugin
+
+  - title: Integrating the Amazon Fling Player In Your Games
+    hurl: https://developer.amazon.com/public/apis/experience/fling/docs/unity-player-plugin
+    jurl: /unity-player-plugin.html
+    ref: unity-player-plugin
+
+- title: API Docs
+  folderitems:
+  -  title: Android API Documentation
+     hurl: https://developer.amazon.com/public/binaries/content/assets/javadoc/whisperplay/javadocs/reference/packages.html
+     jurl: https://developer.amazon.com/public/binaries/content/assets/javadoc/whisperplay/javadocs/reference/packages.html
+     ref: fling-android-api-docs
+
+  - title: iOS API Documentation
+    hurl: https://developer.amazon.com/public/binaries/content/assets/javadoc/whisperplay/objc-apidocs/index.html
+    jurl: https://developer.amazon.com/public/binaries/content/assets/javadoc/whisperplay/objc-apidocs/index.html
+    ref: fling-ios-api-docs
+
+
+###########################
+
+related_resources_title: Related Resources
+
+related_resources_list:
+
+- title: Fire TV
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
+  jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
+
+- title: Fire App Builder
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview
+  jurl: /fire-app-builder-overview.html
+
+- title: Appstore Publishing
+  hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-understanding-submission
+  jurl: /appstore-understanding-submission
+
+- title: In-App Purchasing API
+  hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/getting-started-with-iap
+  jurl: /getting-started-with-iap
+
+- title: Fling SDK
+  hurl: https://developer.amazon.com/public/apis/experience/fling/docs/understanding-the-amazon-fling-service
+  jurl: /understanding-the-amazon-fling-service
+
+- title: Developer Portal Forums
+  hurl: https://forums.developer.amazon.com/
+
+###########################
+
+forum:
+  forum_link: https://forums.developer.amazon.com/spaces/66/index.html
+  forum_name: Fling SDK Forum

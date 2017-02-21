@@ -1,0 +1,1 @@
+If the result from the query (a specified in the `query` parameter) returns a list of strings, include this `queryResultType` parameter and set it equal to `[]$`. If the query's result is an object (a map), omit this parameter. (Fire App Builder needs to know the result type because it will needs to push an object into a Java hashmap.)

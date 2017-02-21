@@ -1,0 +1,1 @@
+The query that you defined in the `query` parameter returns a result. This result needs to be mapped from your feed's names to the names Fire App Builder uses in its content model. The `matchList` parameter maps the results from the query to the name for media categories in Fire App Builder. See [matchList Parameter](#matchlistparameter) for more details.

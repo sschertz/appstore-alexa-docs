@@ -1,0 +1,63 @@
+language: german
+host: 127.0.0.1
+port: 4000
+target: hippo
+
+destination: _output_de
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - hippomenus/
+  - _output_ja
+  - _output_de
+  - _site
+  - _config*
+  - sapp
+
+
+collections:
+  docs_de:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: hippolayout
+  -
+    scope:
+      path: ""
+      type: docs_de
+    values:
+      layout: hippolayout
+
+# German
+image_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/de/
+audio_path: https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/de/
+
+# Note: End the image and audio paths with the forward slash (/)
+
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+
+# German
+alerts:
+  note: Hinweis
+  tip: Spitze
+  warning: Warnung
+  important: Wichtig
+
+
+uistring:
+  github_edit_button_text: Diese Seite verbessern
