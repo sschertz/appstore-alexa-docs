@@ -4,6 +4,7 @@ permalink: supporting-controllers-on-amazon-fire-tv.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Amazon Fire TVプラットフォームは、Amazon Fire TV Remote、Fire TV Voice Remote、Fireゲームコントローラなど、Bluetooth HIDゲームパッドプロファイルに対応した各種のゲームコントローラからのユーザー入力をサポートします。すべてのコントローラは、端末に接続して使用する必要があります。

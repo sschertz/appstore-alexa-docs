@@ -9,7 +9,7 @@ github: true
 
 If your app or game provides instructions or help screens for how to use a controller, you may freely use the controller images and button hints on this page in your app.
 
-<a target="_blank" class="noCrossRef" href="https://s3.amazonaws.com/android-sdk-manager/aftv-misc/firetv-controller-assets.zip"><button type="button" class="btn btn-primary" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download All Images</button></a>
+<a target="_blank" class="noCrossRef" href="https://s3.amazonaws.com/android-sdk-manager/aftv-misc/firetv-controller-assets.zip"><button class="feedbackButton"><i class="fa fa-download" aria-hidden="true"></i> Download All Images</button></a>
 
 * TOC
 {:toc}

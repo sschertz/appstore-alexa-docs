@@ -205,7 +205,7 @@ folders:
     ref: notifications-for-amazon-fire-tv
 
   - title: App Installation Location
-    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/specifying-installation-location
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-tv-installation-location
     jurl: /fire-tv-installation-location.html
     ref: fire-tv-installation-location
 
@@ -246,7 +246,7 @@ folders:
     ref: fire-tv-assistive-technologies
 
   - title: Implementing Accessibility in Fire OS
-    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/docs/fire-tv-accessibility
+    hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-tv-accessibility
     jurl: /fire-tv-accessibility.html
     ref: fire-tv-accessibility
 

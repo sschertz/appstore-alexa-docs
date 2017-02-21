@@ -4,6 +4,7 @@ permalink: amazon-fire-tv-remote-input.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 すべてのボタン、Androidイベント、および動作のガイドラインは、[Voice Search] ([Microphone]) ボタンを除いて、すべてのリモコンで同じです。[Voice Search] ([Microphone]) ボタンは一部のリモコンでしか利用できません。

@@ -25,12 +25,32 @@ When reading the user agent string, do not rely on specific version numbers with
 
 The following table shows the user agent strings for Fire TV:
 
-| User Agent | String | Example |
-| --- | --- | --- |
-| Android WebView<br/>(`android.webkit.WebView`) | `Mozilla/5.0 (Linux; U; Android <android>; <locale>; <device> Build/<build>) AppleWebKit/<webkit> (KHTML, like Gecko) Version/4.0 Mobile Safari/<safari>` | `Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30` |
-| Amazon WebView<br/>(`com.amazon.android.webkit.AmazonWebView`) | `Mozilla/5.0 (Linux; Android <android>; <device> Build/<build>) AppleWebKit/<webkit> (KHTML, like Gecko) Chrome/<chrome> Mobile Safari/<safari>` | `Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22` |
-| Amazon Web App Platform | `Mozilla/5.0 (Linux; Android <android>; <device> Build/<build>) AppleWebKit/<webkit> (KHTML, like Gecko) Chrome/<chrome> Mobile Safari/<safari> cordova-amazon-fireos/<amazon> AmazonWebAppPlatform/<amazon>` | `Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0` |
-
+<table class="grid">
+  <thead>
+    <tr>
+      <th>User Agent</th>
+      <th>String</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Android WebView<br />(<code>android.webkit.WebView</code>)</td>
+      <td><code>Mozilla/5.0 (Linux; U; Android &lt;android&gt;; &lt;locale&gt;; &lt;device&gt; Build/&lt;build&gt;) AppleWebKit/&lt;webkit&gt; (KHTML, like Gecko) Version/4.0 Mobile Safari/&lt;safari&gt;</code></td>
+      <td><code>Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</code></td>
+    </tr>
+    <tr>
+      <td>Amazon WebView<br />(<code>com.amazon.android.webkit.AmazonWebView</code>)</td>
+      <td><code>Mozilla/5.0 (Linux; Android &lt;android&gt;; &lt;device&gt; Build/&lt;build&gt;) AppleWebKit/&lt;webkit&gt; (KHTML, like Gecko) Chrome/&lt;chrome&gt; Mobile Safari/&lt;safari&gt;</code></td>
+      <td><code>Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22</code></td>
+    </tr>
+    <tr>
+      <td>Amazon Web App Platform</td>
+      <td><code>Mozilla/5.0 (Linux; Android &lt;android&gt;; &lt;device&gt; Build/&lt;build&gt;) AppleWebKit/&lt;webkit&gt; (KHTML, like Gecko) Chrome/&lt;chrome&gt; Mobile Safari/&lt;safari&gt; cordova-amazon-fireos/&lt;amazon&gt; AmazonWebAppPlatform/&lt;amazon&gt;</code></td>
+      <td><code>Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0</code></td>
+    </tr>
+  </tbody>
+</table>
 ## Placeholders in User Agent Strings
 
 The following placeholders in the user agent string are for version numbers that vary by device, for values that can be altered by the user, or for values that can change when Amazon updates the software on the device:

@@ -4,6 +4,7 @@ permalink: controller-input-with-unity.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 [Unity開発ツール](http://unity3d.com/unity)を使用すれば、Android端末用のアプリやゲームを作成するのと同様に、Amazon Fire TV用のアプリやゲームを作成できます。

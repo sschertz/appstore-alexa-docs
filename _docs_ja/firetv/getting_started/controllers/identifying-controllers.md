@@ -4,6 +4,7 @@ permalink: identifying-controllers.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Amazon Fire TVプラットフォームでは、ユーザーは最大で 7 つのBluetoothコントローラに同時に接続できます。アプリまたはゲームが複数のユーザーやプレーヤーからの入力をサポートしている場合、接続されたコントローラを識別し、それらのコントローラの機能を特定し、それぞれのコントローラからのユーザー入力を区別できる必要があります。
