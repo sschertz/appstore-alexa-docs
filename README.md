@@ -1,4 +1,4 @@
-## Document for Amazon Developer Portal
+## Documentation for Amazon Developer Portal
 
 This site contains documentation for some of the pages on the Amazon Developer Portal (https://developer.amazon.com/). Currently, only a small subset of the Developer Portal docs are in this repo (mainly Fire TV, Fire App Builder, and Fling), but the plan is to expand the amount of documentation on Github in the future. We want our documentation to be more community-oriented, interactive, accurate, and thorough.
 
