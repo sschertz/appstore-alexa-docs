@@ -64,6 +64,7 @@ exclude:
 ########## UI text ###############
 
 uistring:
+    github_edit_button_text: このページを改善する
     log_doc_issue: ログドキュメントの問題
     tableofcontents: 目次
     breadcrumb:

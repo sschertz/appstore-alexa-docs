@@ -120,7 +120,7 @@
                     {% endif %}
                     {% if page.github == true %}
                     <li><a href="https://github.com/amzn/appstore-alexa-docs/issues" class="noCrossRef">{{site.uistring.log_doc_issue}}</a></li>
-                    <li><a target="_blank" href="https://github.com/amzn/appstore-alexa-docs/blob/master/{{page.path}}" class="editButton noCrossRef"><i class="fa fa-github fa-lg"></i> {{site.uistring.github_edit_button_text}}</a></li>{% endif %}
+                    <li><a target="_blank" href="https://github.com/amzn/appstore-alexa-docs/blob/github-docs/{{page.path}}" class="editButton noCrossRef"><i class="fa fa-github fa-lg"></i> {{site.uistring.github_edit_button_text}}</a></li>{% endif %}
                     {% unless page.type == "homepage" or page.type == "search" or page.type == "404" %}
                     <li><a href="{{ site.data[page.sidebar].forum.forum_link }}" class="editButton noCrossRef">{{ site.data[page.sidebar].forum.forum_name }}</a></li>
                     {% endunless %}

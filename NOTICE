@@ -17,5 +17,6 @@ This site includes third-party code subject to the following copyrights:
 * TOC generator: https://github.com/ghiculescu/jekyll-table-of-contents.
 * FontAwesome: http://fontawesome.io/license/ (GPL)
 * jQuery Cookie: https://github.com/carhartl/jquery-cookie (MIT license)
+* jQuery inc-plugin. Licensed under the MIT license.
 
 See the /assets/licenses folder for the license files required for these third-party components.

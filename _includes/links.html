@@ -11,15 +11,15 @@ _/ |\___|_|\_\\__, |_|_|
 
 
 {% if site.language == "english" %}
-{% assign homepage_products = homepage_products %}
+{% assign homepage_products = "homepage_products" %}
 {% elsif site.language == "german" %}
-{% assign homepage_products = homepage_products_de %}
+{% assign homepage_products = "homepage_products_de" %}
 {% elsif site.language == "japanese" %}
-{% assign homepage_products = homepage_products_ja %}
+{% assign homepage_products = "homepage_products_ja" %}
 {% endif %}
 
 {% if site.target == "jekyll" %}
-{% for sidebar in site.data.{{homepage_products}}.products %}
+{% for sidebar in site.data[homepage_products].products %}
 {% for folder in site.data[sidebar.shortname].folders %}
 {% for folderitem in folder.folderitems %}
 
@@ -96,7 +96,7 @@ _     _
 
 {% if site.target == "hippo" %}
 
-{% for sidebar in site.data.{{homepage_products}}.products %}
+{% for sidebar in site.data[homepage_products].products %}
 {% for folder in site.data[sidebar.shortname].folders %}
 {% for folderitem in folder.folderitems %}
 
