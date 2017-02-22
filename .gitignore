@@ -1,9 +1,11 @@
 .sass-cache/
 .jekyll-metadata
-.idea
+.idea/
+**/.idea*
 _output_ja
 _output_de
 _site
-.DS_Store
-sapp
-Config
+**/.DS_Store
+sapp/
+Config*
+_s3_deploy

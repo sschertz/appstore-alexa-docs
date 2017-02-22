@@ -28,7 +28,6 @@ owner: tomjoht
 #            hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/sample1-level3
 #            ref: sample
 
-
 folders:
 - title: Introduction
   folderitems:
@@ -145,7 +144,7 @@ folders:
     ref: fire-app-builder-create-a-new-component
 
     subfolders:
-    - title: Ads components
+    - title: Ads Components
       subfolderitems:
 
       - title: FreeWheel Ads Component
@@ -158,7 +157,7 @@ folders:
         jurl: /fire-app-builder-vast-ads-component.html
         ref: fire-app-builder-vast-ads-component
 
-    - title: Analytics components
+    - title: Analytics Components
       subfolderitems:
 
       - title: Crashlytics Component
@@ -199,7 +198,7 @@ folders:
         jurl: /fire-app-builder-login-with-amazon-component.html
         ref: fire-app-builder-login-with-amazon-component
 
-    - title: Purchasing components
+    - title: Purchasing Components
       subfolderitems:
 
       - title: Amazon In-App Purchasing Component
@@ -207,7 +206,7 @@ folders:
         jurl: /fire-app-builder-amazon-in-app-purchase-component.html
         ref: fire-app-builder-amazon-in-app-purchase-component
 
-    - title: Media components
+    - title: Media Components
       subfolderitems:
 
       - title: Amazon Media Player Component
