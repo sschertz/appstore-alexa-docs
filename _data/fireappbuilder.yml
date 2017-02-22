@@ -264,20 +264,21 @@ related_resources_list:
   hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/getting-started-developing-apps-and-games-for-amazon-fire-tv
   jurl: /getting-started-developing-apps-and-games-for-amazon-fire-tv.html
 
-- title: Fire App Builder
-  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fire-app-builder-overview
-  jurl: /fire-app-builder-overview.html
+- title: Fire TV Catalog Integration
+  hurl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/catalog/integrating-your-catalog-with-fire-tv
+  jurl: /integrating-your-catalog-with-fire-tv.html
+  ref: integrating-your-catalog-with-fire-tv
 
-- title: Cross Platform Engine Plugins
-  hurl: https://developer.amazon.com/public/solutions/platforms/cross-platform/unity/docs/cross-platform-plugins-landing-page
-  jurl:  /cross-platform-plugins-landing-page.html
+- title: App Testing Service
+  hurl: https://developer.amazon.com/app-testing-service
+  jurl: https://developer.amazon.com/app-testing-service
 
 - title: Appstore Publishing
   hurl: https://developer.amazon.com/public/support/submitting-your-app/tech-docs/appstore-understanding-submission
   jurl: /appstore-understanding-submission.html
 
 - title: In-App Purchasing API
-  hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/getting-started-with-iap
+  hurl: https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/whats-new-in-in-app-purchasing
   jurl: /getting-started-with-iap.html
 
 - title: Fling SDK

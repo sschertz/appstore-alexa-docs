@@ -4,6 +4,7 @@ permalink: fire-app-builder-create-a-new-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 既存のコンポーネントを使用する以外に、インターフェースを実装するコンポーネントを自分で作成することもできます。独自のコンポーネントを作成する場合は、インターフェースを実装するJavaコードの記述が必要になります。

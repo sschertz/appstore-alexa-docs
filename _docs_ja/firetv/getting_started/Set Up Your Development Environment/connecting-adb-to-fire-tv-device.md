@@ -4,6 +4,7 @@ permalink: connecting-adb-to-fire-tv-device.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 {% include content/{{site.language}}/adb.md %}

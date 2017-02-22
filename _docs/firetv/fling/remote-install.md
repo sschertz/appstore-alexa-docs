@@ -5,17 +5,17 @@ product: Fling SDK
 permalink: remote-install.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
-## Introduction to Remote Install
-
-We continue to add new features to Fling SDK including the ability to remotely discover and trigger installations of Fire TV apps and games directly from your iOS, Android, and Fire mobile devices.
-
-Remote Install allows you to discover Fire TV devices on the same network. Once a Fire TV is discovered from a user’s mobile device or tablet you can check if your application is installed on that Fire TV and prompt the user to also install the Fire TV version of your app or game.
+Remote Install allows you to discover Fire TV devices on the same network. Once a Fire TV is discovered from a user’s mobile device or tablet, you can check if your application is installed on that Fire TV and prompt the user to also install the Fire TV version of your app or game.
 
 {% include image.html file="firetv/fling/images/remoteinstalllanding" type="png" border="true" %}
 
-This is important for developers looking to increase the user base of their cross platform apps. By leveraging Remote Discovery’s ability to run on iOS and Android devices, you gain a new way to drive user acquisition for your Fire TV products. Conveniently, you can simply add Remote Install to your existing app or game without the need of fully implementing the rest of the Amazon Fling SDK’s APIs. Let’s take a look at what you need to know for getting it up and running.
+Remote installation is important for developers looking to increase the user base of their cross platform apps. By leveraging Remote Discovery’s ability to run on iOS and Android devices, you gain a new way to drive user acquisition for your Fire TV products. Conveniently, you can simply add Remote Install to your existing app or game without the need of fully implementing the rest of the Amazon Fling SDK’s APIs. Let’s take a look at what you need to know for getting it up and running.
+
+* TOC
+{:toc}
 
 ## Implementing Remote Install
 

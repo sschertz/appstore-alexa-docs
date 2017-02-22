@@ -4,6 +4,7 @@ permalink: amazon-fire-tv-differences-from-android-tv-development.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Fire TVとAndroid TVは、どちらもAndroidが使用されているため、開発したAndroidアプリをAmazonアプリストアとGoogle Playストアの両方で配信することができます。AmazonストアとGoogleストアの両方で配信することによって、アプリの知名度とダウンロード件数を大幅に向上させることができます。

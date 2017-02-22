@@ -4,6 +4,7 @@ permalink: fire-app-builder-querying-xml.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 [レシピのセットアップ][fire-app-builder-set-up-recipes-overview]では、`query`パラメータにXMLクエリ構文を使用しました。XMLクエリではXPath式が使用されます。XPath構文の詳細については、[こちら](http://www.w3schools.com/xsl/xpath_syntax.asp)を参照してください。こちらの[XPath Tester / Evaluator](http://www.freeformatter.com/xpath-tester.html)でXPath式をテストすることもできます。

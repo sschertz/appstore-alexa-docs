@@ -4,6 +4,7 @@ permalink: the-web-app-starter-kit-for-fire-tv.html
 sidebar: firetv
 product: Fire TV
 github: true
+toc: false
 ---
 
 The Web App Starter Kit for Fire TV, available on Github at [github.com/amzn/web-app-starter-kit-for-fire-tv](https://github.com/amzn/web-app-starter-kit-for-fire-tv), includes the Fire TV web app template and associated text files. The Fire TV web app template is both an illustration of best practices for developing a web app for Fire TV and a starting point for developing your own web app.

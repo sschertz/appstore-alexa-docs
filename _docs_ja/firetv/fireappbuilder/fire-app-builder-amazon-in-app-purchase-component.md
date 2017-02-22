@@ -4,6 +4,7 @@ permalink: fire-app-builder-amazon-in-app-purchase-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Amazonアプリ内課金コンポーネントでは、Amazonの[アプリ内課金](https://developer.amazon.com/public/apis/earn/in-app-purchasing) (IAP) APIを使用して、アプリに次の 2 つの購入オプションを組み込みます。

@@ -4,6 +4,7 @@ permalink: fire-app-builder-set-up-recipes-overview.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 [メディアフィードをロード][fire-app-builder-load-media-feed]したら、フィードからメディアのカテゴリとコンテンツを取得する際に使用される 2 つのレシピを構成する必要があります。"レシピ" とは、アプリの作成時にFire App Builderで使用される設定が (キーと値の形式で) 記述されたシンプルなファイルです。構成する必要のある 2 つのレシピは次のとおりです。

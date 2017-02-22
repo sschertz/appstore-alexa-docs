@@ -4,6 +4,7 @@ permalink: whats-new-in-the-fire-tv-sdk.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 * TOC

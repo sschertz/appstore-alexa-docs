@@ -4,6 +4,7 @@ permalink: setting-up-your-development-environment.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Amazon Fire TVプラットフォームを対象にAndroidベースのFire TV対応アプリ開発を行うには、あらかじめ開発環境をセットアップしておく必要があります。

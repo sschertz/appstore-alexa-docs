@@ -1,10 +1,12 @@
 ---
 title: アプリを作成するための一連のプロセス
 toc: false
+github: true
 permalink: fire-app-builder-end-to-end-process.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 <style>
 th {

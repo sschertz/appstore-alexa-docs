@@ -2,9 +2,11 @@
 title: よくある質問
 permalink: fire-app-builder-questions-and-answers.html
 toc: false
+github: true
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Fire App Builderに関する一般的な質問を以下に示します。 

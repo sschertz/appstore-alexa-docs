@@ -5,13 +5,17 @@ product: Fling SDK
 permalink: integrating-amazon-fling-into-your-android-app.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
-To enable this feature in your mobile app for Fire OS or Android, implement the API and add permissions to your Android manifest. This document describes both these steps. See [Understanding the Amazon Fling Service][understanding-the-amazon-fling-service] for a high-level overview of the features and functions our SDK provides. See also the controller sample app, part of the SDK, for details on your controller implementation.  
+To enable this feature in your mobile app for Fire OS or Android, implement the API and add permissions to your Android manifest. This document describes both these steps. See [Understanding the Amazon Fling Service][understanding-the-amazon-fling-service] for a high-level overview of the features and functions our SDK provides. See also the controller sample app, which is part of the SDK, for details on your controller implementation.  
 
 Before you start, make sure you've set up your development environment. See [Setting Up Your Amazon Fling Development Environment for Android][setting-up-your-amazon-fling-development-environment-for-android] for more details.
 
-## Overview
+* TOC
+{:toc}
+
+## Integration Overview
 
 There are four steps for creating or modifying your controller mobile app to support our SDK:
 

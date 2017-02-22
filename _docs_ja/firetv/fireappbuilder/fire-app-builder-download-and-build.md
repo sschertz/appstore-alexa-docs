@@ -4,6 +4,7 @@ permalink: fire-app-builder-download-and-build.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Fire App Builderを使用してサンプルアプリをビルドするには、以下のセクションの手順を完了します。

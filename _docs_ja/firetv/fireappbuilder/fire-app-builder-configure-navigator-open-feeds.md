@@ -4,6 +4,7 @@ permalink: fire-app-builder-configure-navigator-open-feeds.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 オープンにアクセスできる (つまり、トークンが必要ない) フィードの場合は、以下のセクションの手順に従ってください。一方、トークンが必要なフィードの場合は、「[Navigatorの構成 -- トークンベースフィード][fire-app-builder-configure-navigator-token-feeds]」を参照してください。Navigatorの構成の概要については、「[Navigatorの構成の概要][fire-app-builder-configure-navigator]」を参照してください。

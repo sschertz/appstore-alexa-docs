@@ -4,6 +4,7 @@ permalink: amazon-fire-tv-sdk-frequently-asked-questions.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 ## 全般 {#general}

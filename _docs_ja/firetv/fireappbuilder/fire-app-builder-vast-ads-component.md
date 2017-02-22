@@ -4,6 +4,7 @@ permalink: fire-app-builder-vast-ads-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 <style>

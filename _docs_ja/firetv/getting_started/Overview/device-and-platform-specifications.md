@@ -6,6 +6,7 @@ navtabs: true
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 {% if site.target == "hippo" %}

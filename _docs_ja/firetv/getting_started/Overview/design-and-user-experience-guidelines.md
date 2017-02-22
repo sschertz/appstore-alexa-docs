@@ -4,6 +4,7 @@ permalink: design-and-user-experience-guidelines.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 テレビのユーザーインターフェースのデザインは、デスクトップコンピューターやタブレット、スマートフォンのデザインとは大きく異なります。ここでは、開発者の皆さんが 10 フィートUIのデザイン原則を理解し、アプリケーションとデザインをAmazon Fire TVユーザーインターフェースに統合する際の助けとなるガイドラインを紹介しています。

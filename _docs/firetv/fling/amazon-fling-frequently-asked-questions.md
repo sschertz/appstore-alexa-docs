@@ -5,9 +5,8 @@ product: Fling SDK
 permalink: amazon-fling-frequently-asked-questions.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
-
-## Fling FAQ
 
 What platforms are supported by the Amazon Fling SDK? 
 :   The SDK is supported on Fire OS, Android, and iOS.

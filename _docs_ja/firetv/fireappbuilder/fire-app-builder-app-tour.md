@@ -4,6 +4,7 @@ permalink: fire-app-builder-app-tour.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 [アプリの作成][fire-app-builder-download-and-build]が無事終了したら、少し時間を割いて、さまざまな画面を見てみましょう。以降のセクションでは、Fire App Builderのサンプルアプリの各画面について説明します。

@@ -4,6 +4,7 @@ permalink: fire-app-builder-set-up-recipes-content.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 [カテゴリの構成][fire-app-builder-set-up-recipes-categories]では、メディアの一般的なグループを構成しました。この手順では、フィードのコンテンツ (タイトル、説明、画像、ビデオURLなど) をFire App Builderのコンテンツモデルにマップします。レシピ構成の概要については、「[レシピ構成の概要][fire-app-builder-set-up-recipes-overview]」を参照してください。

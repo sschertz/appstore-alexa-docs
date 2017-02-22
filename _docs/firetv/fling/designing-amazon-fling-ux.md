@@ -5,11 +5,15 @@ product: Fling SDK
 permalink: designing-amazon-fling-ux.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
 Amazon Fling allows you to send media sources from your mobile application to the Amazon Fire TV. Your app on the mobile device is the **controller**, while the app that plays your content on the Fire TV is the **player**.  
 
-In this document, we will describe the UX design guidelines and recommendations for your **controller** applications.
+This document describes the UX design guidelines and recommendations for **controller** applications.
+
+* TOC
+{:toc}
 
 ## User Interface Design Guidelines
 

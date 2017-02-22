@@ -5,9 +5,13 @@ product: Fling SDK
 permalink: using-amazon-fling-with-android-mediarouter.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
 The [MediaRouter](https://developer.android.com/guide/topics/media/mediarouter.html) framework in Android enables your app to direct the output of media playback to a specific device. The API included in the SDK provides a FlingMediaRouteProvider class for controller apps, which makes it easy to integrate this functionality into your MediaRouter-based app.  
+
+* TOC
+{:toc}
 
 ## Integrating FlingMediaRouteProvider
 

@@ -4,6 +4,7 @@ permalink: fire-app-builder-brightcove-media-player-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Fire App Builderには、デフォルトでAmazon Media Playerが構成されています。ただし、必要な場合は、代わりにBrightCove MediaPlayerを使用することもできます。この 2 つのメディアプレーヤーに機能的な違いはありません。メディアやアプリのインフラストラクチャがBrightCoveと密接に連携している場合は、Amazon Media Playerの代わりにBrightCove MediaPlayerをロードできます。

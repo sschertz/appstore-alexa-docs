@@ -4,6 +4,7 @@ permalink: fire-app-builder-release-notes.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 ## バージョン 1.0.0

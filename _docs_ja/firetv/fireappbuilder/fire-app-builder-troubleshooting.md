@@ -4,6 +4,7 @@ permalink: fire-app-builder-troubleshooting.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 こちらを読む前に、発生したバグが既知のものかどうかを「[既知の問題][fire-app-builder-release-notes#known_issues]」セクションで確認してください。 

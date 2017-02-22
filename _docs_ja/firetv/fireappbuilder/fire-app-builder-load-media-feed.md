@@ -4,6 +4,7 @@ permalink: fire-app-builder-load-media-feed.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 メディアフィードはアプリの核となる部分です。このフィードは、各メディアオブジェクトのタイトル、説明、サムネイル、その他の詳細情報が含まれたビデオコンテンツで構成されています。 

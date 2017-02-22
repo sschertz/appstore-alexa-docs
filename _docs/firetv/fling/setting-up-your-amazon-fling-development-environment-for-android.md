@@ -5,6 +5,7 @@ product: Fling SDK
 permalink: setting-up-your-amazon-fling-development-environment-for-android.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
 To enable this functionality in your app, you have to integrate our SDK in your development environment. This document describes how to set up your Android Studio projects to include the SDK. Before you start, install the following software packages on your development computer:
@@ -13,6 +14,9 @@ To enable this functionality in your app, you have to integrate our SDK in your 
 *  [Android Studio](http://developer.android.com/sdk/index.html)
 
 {% include note.html content="The Android SDK, Android Studio, the Java Development Kit, and certain other development tools are provided by third parties, not by Amazon. Our links for these tools will take you to third-party sites for download and installation of the tools." %}
+
+* TOC
+{:toc}
 
 ## Setting up Android Studio
 

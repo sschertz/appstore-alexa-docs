@@ -5,6 +5,7 @@ product: Fling SDK
 permalink: integrating-amazon-fling-with-an-existing-ios-cast-app.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
 Using our SDK, you can talk to Amazon Fire TV devices in a similar manner as you use Google Cast in your iOS apps to talk to Chromecast devices.  This page outlines steps to modify an existing iOS app that uses the Google Cast framework to also fling to Amazon Fire TV.

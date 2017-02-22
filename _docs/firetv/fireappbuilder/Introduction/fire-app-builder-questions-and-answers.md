@@ -1,7 +1,6 @@
 ---
 title: Miscellaneous Questions
 permalink: fire-app-builder-questions-and-answers.html
-toc: false
 sidebar: fireappbuilder
 product: Fire App Builder
 toc: false

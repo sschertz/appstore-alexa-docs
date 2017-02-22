@@ -4,6 +4,7 @@ permalink: fire-app-builder-set-up-recipes-categories.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 ここでは、フィードにカテゴリを問い合わせる手順を説明します。カテゴリを使用すると、メディアをさまざまなコレクションやチャネルにグループ化できます。カテゴリでメディアを整理すれば、すべてのビデオを 1 つの長いリストで保持せずに済みます。レシピ構成の全般的な概要については、「[レシピ構成の概要][fire-app-builder-set-up-recipes-overview]」を参照してください。

@@ -4,6 +4,7 @@ permalink: getting-started-with-web-apps-for-fire-tv.html
 sidebar: firetv
 product: Fire TV
 github: true
+toc: false
 ---
 
 Amazon Fire TV, including both Fire TV and the Fire TV Stick, supports HTML5 web apps. You can port your web app to a new platform and submit it to the Amazon Appstore with minimal effort.

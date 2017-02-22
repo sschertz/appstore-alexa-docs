@@ -4,6 +4,7 @@ permalink: fire-app-builder-interfaces-and-components.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Fire App Builderには、インターフェースを実装する多くのコンポーネントが用意されています。これらのインターフェースは、Fire App Builderのメソッドとフィールドを定義しているため、コンポーネントは、コードが完全に開発されたインターフェースを実装します。 

@@ -4,6 +4,7 @@ permalink: fire-app-builder-login-with-amazon-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Login with Amazonコンポーネントを使用すると、ユーザーがメディアの視聴などの特定のアクションを行う前に、Amazonアカウントの認証情報を使ってAmazon Fire TVアプリにログインするよう求めることができます。詳細については、「[Login with Amazon](https://developer.amazon.com/ja/login-with-amazon)」を参照してください。

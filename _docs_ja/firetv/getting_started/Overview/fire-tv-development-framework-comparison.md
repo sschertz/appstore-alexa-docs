@@ -7,6 +7,7 @@ hippourl: https://developer.amazon.com/public/solutions/devices/fire-tv/docs/fir
 reviewers: Russell Beattie, Mihir Choudhary, Jonathan Richardson, Pete Schwab, Mary Galvin, Chris DeNamur, Mario Mancia, Luca Sale, Stephen Whitney, Alexander Budyszewick
 last_updated: 12-13-2016
 toc: false
+github: true
 ---
 
 Amazon Fire TVを対象としたメディアベースのアプリ開発を検討している方のために、Amazonでは、アプリ開発を強力に支援する 2 つのフレームワークを用意しています。それぞれのフレームワークは、特定のスキルを持った開発者が対象となっています。

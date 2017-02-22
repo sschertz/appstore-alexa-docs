@@ -4,11 +4,13 @@ permalink: getting-started-developing-apps-and-games-for-amazon-fire-tv.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Fire TV向けのアプリを開発する際は、まず、Androidアプリとウェブアプリのどちらを作成するのかを決めます。
 
-*  **Androidアプリ**: Android Java開発者は、既存のツール (Android Studioなど) とフレームワーク (Unityなど) を使用して、10 フィートエクスペリエンス向けのアプリやゲームを開発できます。アプリの開発に役立つサンプルコード、ドキュメント、ガイドラインが用意されています。ストリーミングメディアアプリを開発する場合、[Fire App Builder][fire-app-builder-overview] (JavaベースのAndroidスターターキット) を使用して効率的にアプリを作成することができます。*  **ウェブアプリ**: HTML5 ウェブ開発者は、Amazon WebViewを利用してアプリやゲームを開発できます。開発の成果物として、[HTML5 ウェブアプリ](https://developer.amazon.com/public/solutions/platforms/webapps)、Fire OSポートを使用する[Cordovaアプリ](https://developer.amazon.com/public/solutions/platforms/cross-platform)、[ハイブリッドアプリ](https://developer.amazon.com/public/solutions/platforms/android-fireos/docs/building-and-testing-your-hybrid-app)のいずれかを選択できます。ストリーミングメディアアプリを開発する場合、[Fire TV向けウェブアプリスターターキット][the-web-app-starter-kit-for-fire-tv]を使用して効率的にアプリを作成することができます。
+*  **Androidアプリ**: Android Java開発者は、既存のツール (Android Studioなど) とフレームワーク (Unityなど) を使用して、10 フィートエクスペリエンス向けのアプリやゲームを開発できます。アプリの開発に役立つサンプルコード、ドキュメント、ガイドラインが用意されています。ストリーミングメディアアプリを開発する場合、[Fire App Builder][fire-app-builder-overview] (JavaベースのAndroidスターターキット) を使用して効率的にアプリを作成することができます。
+*  **ウェブアプリ**: HTML5 ウェブ開発者は、Amazon WebViewを利用してアプリやゲームを開発できます。開発の成果物として、[HTML5 ウェブアプリ](https://developer.amazon.com/public/solutions/platforms/webapps)、Fire OSポートを使用する[Cordovaアプリ](https://developer.amazon.com/public/solutions/platforms/cross-platform)、[ハイブリッドアプリ](https://developer.amazon.com/public/solutions/platforms/android-fireos/docs/building-and-testing-your-hybrid-app)のいずれかを選択できます。ストリーミングメディアアプリを開発する場合、[Fire TV向けウェブアプリスターターキット][the-web-app-starter-kit-for-fire-tv]を使用して効率的にアプリを作成することができます。
 
 {% include tip.html content="Fire TV向けウェブアプリスターターキット (WASK) とFire App Builderの詳しい比較については、「[Fire TV開発フレームワークの比較][fire-tv-development-framework-comparison]」を参照してください。" %}
 

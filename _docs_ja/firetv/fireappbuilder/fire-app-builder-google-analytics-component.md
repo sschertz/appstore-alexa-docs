@@ -4,6 +4,7 @@ permalink: fire-app-builder-google-analytics-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Googleアナリティクスコンポーネントでは、Googleアナリティクスを使用してAndroidアプリから分析データを収集できます。この分析サービスの詳細については、「[Googleアナリティクス](https://developers.google.com/analytics/)」を参照してください。このコンポーネントを構成するには、Googleアナリティクスから生成したgoogle-services.jsonファイルを設定し、GoogleアナリティクスとFire App Builderのコンポーネントの間でディメンションおよび指標のインデックスを一致させる必要があります。必要なディメンションと指標が含まれるカスタムレポートも設定する必要があります。

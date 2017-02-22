@@ -5,9 +5,17 @@ product: Fling SDK
 permalink: integrating-amazon-fling-into-your-fire-tv-app.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
-A player is an application on Amazon Fire TV that acts as a server to a mobile device based controller app and allows the controller to play content on the Fire TV. You can implement a customized player that fits your banding and rendering needs. To create a new customized player or to enhance your existing Fire TV app to include flinging capability, you must use the player API, which is part of the SDK. The player application must:  
+A player is an application on Amazon Fire TV that acts as a server to a mobile device based controller app and allows the controller to play content on the Fire TV. You can implement a customized player that fits your banding and rendering needs. 
+
+* TOC
+{:toc}
+
+## Integration Overview
+
+To create a new customized player or to enhance your existing Fire TV app to include flinging capability, you must use the player API, which is part of the SDK. The player application must:  
 
 *  Identify itself uniquely to the controllers: The player app must provide a unique service identifier (SID) so that the controller app can discover the Fire TVs hosting this player app.
 *  Announce itself to the framework: The underlying framework enumerates the player applications based on a XML file in the application package. The player app must include this with appropriate metadata.

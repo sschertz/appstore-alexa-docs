@@ -4,6 +4,7 @@ permalink: fire-app-builder-overview.html
 sidebar: fireappbuilder
 product: Fire App Builder
 github: true
+toc: false
 ---
 
 Fire App Builder provides a Java-based framework that you can use to easily and quickly build streaming media Android apps for Amazon Fire TV. 

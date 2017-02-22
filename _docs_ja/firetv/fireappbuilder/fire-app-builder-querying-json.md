@@ -4,6 +4,7 @@ permalink: fire-app-builder-querying-json.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 [レシピのセットアップ][fire-app-builder-set-up-recipes-overview]では、`query`パラメータにJayway JsonPath構文を使用しました。JSONクエリ構文の詳細については、[Jayway JsonPath](https://github.com/jayway/JsonPath)を参照してください。

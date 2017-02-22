@@ -4,6 +4,7 @@ permalink: controller-behavior-guidelines.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Amazon Fire TVプラットフォーム向けのアプリを開発する際、各種コントローラからの入力をサポートできます。各種コントローラには、Amazon Fire TV RemoteとVoice Remote、Amazon Fire TVゲームコントローラ、Bluetooth HIDゲームパッドプロファイルをサポートするその他のコントローラが含まれます。

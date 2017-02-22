@@ -4,6 +4,7 @@ permalink: installing-and-running-your-app.html
 sidebar: firetv_ja
 product: Fire TV
 toc: false
+github: true
 ---
 
 Amazonアプリストアに申請するFire TVアプリは、事前にテストとデバッグを済ませる必要があります。この作業にはAndroid Debug Bridge (ADB) を使用し、Fire TV端末にアプリをインストールして実行します。開発したアプリを (アプリストアを介さずに) インストールすることを、アプリを "サイドロードする" とも

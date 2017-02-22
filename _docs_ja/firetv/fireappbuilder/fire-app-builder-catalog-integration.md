@@ -4,6 +4,7 @@ permalink: fire-app-builder-catalog-integration.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Fire TVのどの画面を表示しているときでも、音声対応リモコンのマイクボタンを押すと、Alexaクラウドサービスを使用したグローバル検索が起動します (アプリのLeanbackライブラリは使用されません)。

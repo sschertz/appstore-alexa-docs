@@ -5,15 +5,17 @@ product: Fling SDK
 permalink: android-remote-install.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
-
-## Introduction to Remote Installation
 
 To enable this feature in your mobile app for Fire OS or Android, implement the API and add permissions to your Android manifest. This document describes both these steps. See [Understanding the Amazon Fling Service][understanding-the-amazon-fling-service] for a high-level overview of the features and functions our SDK provides. See also the controller sample app, part of the SDK, for details on your controller implementation.  
 
 Before you start, make sure you've set up your development environment. See [Setting Up Your Amazon Fling Development Environment][setting-up-your-amazon-fling-development-environment-for-android] for Android for more details.
 
-## Overview
+* TOC
+{:toc}
+
+## Remote Installation Overview
 
 There are four steps for creating or modifying your controller mobile app to support Remote Install:
 

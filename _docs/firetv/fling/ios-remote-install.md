@@ -5,13 +5,17 @@ product: Fling SDK
 permalink: ios-remote-install.html
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
 This service provides an asynchronous discovery and control mechanism for your iOS app in the form of a framework. See [Understanding the Amazon Fling Service][understanding-the-amazon-fling-service] for a high-level overview of the features and functions this service provides. See also the remote install sample app, part of the SDK, for a sample implementation for iOS.  
 
 Before you start, make sure you've set up your development environment. See [Setting Up your Amazon Fling Development Environment for iOS][setting-up-your-amazon-fling-development-environment-for-ios]  for details.
 
-## Overview
+* TOC
+{:toc}
+
+## Integration Overview
 
 There are three steps for creating or modifying your controller mobile app to support Remote Install:
 

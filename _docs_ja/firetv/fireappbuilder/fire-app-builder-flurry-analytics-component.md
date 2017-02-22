@@ -4,6 +4,7 @@ permalink: fire-app-builder-flurry-analytics-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 Flurryは、Androidアプリ向けの分析を行い、メディアの再生に関連した詳細情報を示します。[Flurry Analytics](https://developer.yahoo.com/flurry/docs/analytics/)によると、次のように言われています。

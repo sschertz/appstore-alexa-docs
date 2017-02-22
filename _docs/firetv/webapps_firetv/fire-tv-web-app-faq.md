@@ -5,6 +5,7 @@ toc: false
 sidebar: firetv
 product: Fire TV 
 github: true
+toc: false
 ---
 
 The following are frequently asked questions about Fire TV Web Apps.

@@ -5,11 +5,15 @@ sidebar: in_app_purchasing
 product: In-App Purchasing
 reviewers: jeffersd
 github: true
+toc: false
 ---
 
-## What is Entitled Content?
-
 Entitlement represents a one-time purchase to unlock access to features or content within an app or game.
+
+* TOC
+{:toc}
+
+## Entitled Content Overview? 
 
 Entitled content includes any type of content that you sell within your app that requires access rights. This type of content is available anywhere the customer is logged into the Amazon Client. The entitled content does not expire. If Amazon needs to rescind the entitled content, your app will be notified via an observable event.
 

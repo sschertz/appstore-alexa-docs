@@ -4,6 +4,7 @@ permalink: fire-app-builder-customize-look-and-feel.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 アプリのcustom.xmlファイル (**res > values**にあります) とnavigator.json (**app > assets**にあります) を使用して、アプリのルックアンドフィールのほとんどをカスタマイズできます。簡単に変更できるアプリの要素を次に示します。

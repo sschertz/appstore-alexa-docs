@@ -4,6 +4,7 @@ permalink: migrating-your-web-app-to-fire-tv.html
 sidebar: firetv
 product: Fire TV
 github: true
+toc: false
 ---
 
 Amazon Fire TV supports HTML5 web apps. If you have an existing web app that you want to make available on Fire TV, review the following checklist for migrating your web app to the Fire TV platform.

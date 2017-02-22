@@ -4,6 +4,7 @@ permalink: fire-app-builder-load-a-component.html
 sidebar: fireappbuilder_ja
 product: Fire App Builder
 toc: false
+github: true
 ---
 
 利用可能なコンポーネントの概要については、「[コンポーネントの概要][fire-app-builder-interfaces-and-components]」を参照してください。コンポーネントごとにドキュメントが用意されていますが、ロードする方法はどのコンポーネントも同じです。
